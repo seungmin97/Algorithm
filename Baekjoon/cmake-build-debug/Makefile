@@ -123,32 +123,32 @@ Baekjoon/fast:
 	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/build
 .PHONY : Baekjoon/fast
 
-Greedy_Algorithm/MeetingRoom.o: Greedy_Algorithm/MeetingRoom.cpp.o
+Greedy_Algorithm/30.o: Greedy_Algorithm/30.cpp.o
 
-.PHONY : Greedy_Algorithm/MeetingRoom.o
+.PHONY : Greedy_Algorithm/30.o
 
 # target to build an object file
-Greedy_Algorithm/MeetingRoom.cpp.o:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Greedy_Algorithm/MeetingRoom.cpp.o
-.PHONY : Greedy_Algorithm/MeetingRoom.cpp.o
+Greedy_Algorithm/30.cpp.o:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Greedy_Algorithm/30.cpp.o
+.PHONY : Greedy_Algorithm/30.cpp.o
 
-Greedy_Algorithm/MeetingRoom.i: Greedy_Algorithm/MeetingRoom.cpp.i
+Greedy_Algorithm/30.i: Greedy_Algorithm/30.cpp.i
 
-.PHONY : Greedy_Algorithm/MeetingRoom.i
+.PHONY : Greedy_Algorithm/30.i
 
 # target to preprocess a source file
-Greedy_Algorithm/MeetingRoom.cpp.i:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Greedy_Algorithm/MeetingRoom.cpp.i
-.PHONY : Greedy_Algorithm/MeetingRoom.cpp.i
+Greedy_Algorithm/30.cpp.i:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Greedy_Algorithm/30.cpp.i
+.PHONY : Greedy_Algorithm/30.cpp.i
 
-Greedy_Algorithm/MeetingRoom.s: Greedy_Algorithm/MeetingRoom.cpp.s
+Greedy_Algorithm/30.s: Greedy_Algorithm/30.cpp.s
 
-.PHONY : Greedy_Algorithm/MeetingRoom.s
+.PHONY : Greedy_Algorithm/30.s
 
 # target to generate assembly for a file
-Greedy_Algorithm/MeetingRoom.cpp.s:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Greedy_Algorithm/MeetingRoom.cpp.s
-.PHONY : Greedy_Algorithm/MeetingRoom.cpp.s
+Greedy_Algorithm/30.cpp.s:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Greedy_Algorithm/30.cpp.s
+.PHONY : Greedy_Algorithm/30.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Baekjoon"
-	@echo "... Greedy_Algorithm/MeetingRoom.o"
-	@echo "... Greedy_Algorithm/MeetingRoom.i"
-	@echo "... Greedy_Algorithm/MeetingRoom.s"
+	@echo "... Greedy_Algorithm/30.o"
+	@echo "... Greedy_Algorithm/30.i"
+	@echo "... Greedy_Algorithm/30.s"
 .PHONY : help
 
 

@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Greedy_Algorithm/MeetingRoom.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Greedy_Algorithm/30.cpp">
 			<Option target="Baekjoon"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Baekjoon/CMakeLists.txt">

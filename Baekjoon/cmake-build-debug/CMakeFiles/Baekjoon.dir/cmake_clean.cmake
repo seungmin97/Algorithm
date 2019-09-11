@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Baekjoon.dir/Greedy_Algorithm/MeetingRoom.cpp.o"
+  "CMakeFiles/Baekjoon.dir/Greedy_Algorithm/30.cpp.o"
   "Baekjoon.pdb"
   "Baekjoon"
 )

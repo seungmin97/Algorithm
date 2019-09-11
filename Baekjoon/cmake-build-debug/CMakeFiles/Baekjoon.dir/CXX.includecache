@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Greedy_Algorithm/MeetingRoom.cpp
+/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Greedy_Algorithm/30.cpp
 iostream
 -
-vector
--
 algorithm
+-
+string
+-
+math.h
+-
+stdlib.h
 -
 

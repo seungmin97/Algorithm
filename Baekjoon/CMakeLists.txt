@@ -3,4 +3,4 @@ project(Baekjoon)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Baekjoon Greedy_Algorithm/MeetingRoom.cpp)
+add_executable(Baekjoon Greedy_Algorithm/30.cpp)
