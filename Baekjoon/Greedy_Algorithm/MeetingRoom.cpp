@@ -32,7 +32,7 @@ int main(){
         v.push_back(make_pair(start, end));
     }
 
-    sort(v.begin(), v.end(), greater<int>()); 
+    sort(v.begin(), v.end(), cmp);
 
     int cnt = 1;
     int time = v[0].second;
