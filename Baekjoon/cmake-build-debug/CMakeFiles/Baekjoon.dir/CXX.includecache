@@ -11,10 +11,8 @@ iostream
 -
 algorithm
 -
-string
--
-math.h
--
 stdlib.h
+-
+string
 -
 
