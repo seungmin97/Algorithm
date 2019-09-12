@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/DataStructure/Queue.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/DataStructure/Sort/Bubble.cpp">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/DataStructure/CMakeLists.txt">

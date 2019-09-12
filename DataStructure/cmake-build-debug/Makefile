@@ -123,32 +123,32 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-Queue.o: Queue.cpp.o
+Sort/Bubble.o: Sort/Bubble.cpp.o
 
-.PHONY : Queue.o
+.PHONY : Sort/Bubble.o
 
 # target to build an object file
-Queue.cpp.o:
-	$(MAKE) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/Queue.cpp.o
-.PHONY : Queue.cpp.o
+Sort/Bubble.cpp.o:
+	$(MAKE) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.o
+.PHONY : Sort/Bubble.cpp.o
 
-Queue.i: Queue.cpp.i
+Sort/Bubble.i: Sort/Bubble.cpp.i
 
-.PHONY : Queue.i
+.PHONY : Sort/Bubble.i
 
 # target to preprocess a source file
-Queue.cpp.i:
-	$(MAKE) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/Queue.cpp.i
-.PHONY : Queue.cpp.i
+Sort/Bubble.cpp.i:
+	$(MAKE) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.i
+.PHONY : Sort/Bubble.cpp.i
 
-Queue.s: Queue.cpp.s
+Sort/Bubble.s: Sort/Bubble.cpp.s
 
-.PHONY : Queue.s
+.PHONY : Sort/Bubble.s
 
 # target to generate assembly for a file
-Queue.cpp.s:
-	$(MAKE) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/Queue.cpp.s
-.PHONY : Queue.cpp.s
+Sort/Bubble.cpp.s:
+	$(MAKE) -f CMakeFiles/DataStructure.dir/build.make CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.s
+.PHONY : Sort/Bubble.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... DataStructure"
-	@echo "... Queue.o"
-	@echo "... Queue.i"
-	@echo "... Queue.s"
+	@echo "... Sort/Bubble.o"
+	@echo "... Sort/Bubble.i"
+	@echo "... Sort/Bubble.s"
 .PHONY : help
 
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructure.dir/Queue.cpp.o"
+  "CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.o"
   "DataStructure.pdb"
   "DataStructure"
 )

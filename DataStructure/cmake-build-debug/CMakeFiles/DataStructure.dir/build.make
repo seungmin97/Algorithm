@@ -57,27 +57,27 @@ include CMakeFiles/DataStructure.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructure.dir/flags.make
 
-CMakeFiles/DataStructure.dir/Queue.cpp.o: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/Queue.cpp.o: ../Queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungmin/Desktop/Algorithm/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructure.dir/Queue.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructure.dir/Queue.cpp.o -c /Users/leeseungmin/Desktop/Algorithm/DataStructure/Queue.cpp
+CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.o: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.o: ../Sort/Bubble.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungmin/Desktop/Algorithm/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.o -c /Users/leeseungmin/Desktop/Algorithm/DataStructure/Sort/Bubble.cpp
 
-CMakeFiles/DataStructure.dir/Queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Queue.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leeseungmin/Desktop/Algorithm/DataStructure/Queue.cpp > CMakeFiles/DataStructure.dir/Queue.cpp.i
+CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leeseungmin/Desktop/Algorithm/DataStructure/Sort/Bubble.cpp > CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.i
 
-CMakeFiles/DataStructure.dir/Queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Queue.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leeseungmin/Desktop/Algorithm/DataStructure/Queue.cpp -o CMakeFiles/DataStructure.dir/Queue.cpp.s
+CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leeseungmin/Desktop/Algorithm/DataStructure/Sort/Bubble.cpp -o CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.s
 
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
-"CMakeFiles/DataStructure.dir/Queue.cpp.o"
+"CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.o"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
 
-DataStructure: CMakeFiles/DataStructure.dir/Queue.cpp.o
+DataStructure: CMakeFiles/DataStructure.dir/Sort/Bubble.cpp.o
 DataStructure: CMakeFiles/DataStructure.dir/build.make
 DataStructure: CMakeFiles/DataStructure.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/leeseungmin/Desktop/Algorithm/DataStructure/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DataStructure"
