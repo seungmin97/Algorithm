@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/DataStructure/Stack.cpp
+/Users/leeseungmin/Desktop/Algorithm/DataStructure/Queue.cpp
 iostream
 -
 vector
--
-string
 -
 

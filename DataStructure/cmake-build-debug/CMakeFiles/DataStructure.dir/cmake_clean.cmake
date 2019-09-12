@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructure.dir/Stack.cpp.o"
+  "CMakeFiles/DataStructure.dir/Queue.cpp.o"
   "DataStructure.pdb"
   "DataStructure"
 )
