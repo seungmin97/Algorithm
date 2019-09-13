@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="519f6954-cb12-44b7-a7ff-e858ca3facf0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BruteForce/Leave.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,7 +81,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Greedy_Algorithm/30.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="573">
@@ -91,6 +91,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BruteForce/Leave.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -132,6 +137,11 @@
             <path>
               <item name="Baekjoon" type="b2602c69:ProjectViewProjectNode" />
               <item name="Baekjoon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Baekjoon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Baekjoon" type="462c0819:PsiDirectoryNode" />
+              <item name="BruteForce" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Baekjoon" type="b2602c69:ProjectViewProjectNode" />
@@ -186,16 +196,18 @@
       <workItem from="1568171184186" duration="17000" />
       <workItem from="1568287793705" duration="805000" />
       <workItem from="1568289602697" duration="12000" />
+      <workItem from="1568386226063" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15772000" />
+    <option name="totallyTimeSpent" value="15786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -308,6 +320,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BruteForce/Leave.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
