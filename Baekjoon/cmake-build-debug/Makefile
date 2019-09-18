@@ -123,32 +123,32 @@ Baekjoon/fast:
 	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/build
 .PHONY : Baekjoon/fast
 
-Greedy_Algorithm/30.o: Greedy_Algorithm/30.cpp.o
+Binary_Search/Number_Card.o: Binary_Search/Number_Card.cpp.o
 
-.PHONY : Greedy_Algorithm/30.o
+.PHONY : Binary_Search/Number_Card.o
 
 # target to build an object file
-Greedy_Algorithm/30.cpp.o:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Greedy_Algorithm/30.cpp.o
-.PHONY : Greedy_Algorithm/30.cpp.o
+Binary_Search/Number_Card.cpp.o:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Number_Card.cpp.o
+.PHONY : Binary_Search/Number_Card.cpp.o
 
-Greedy_Algorithm/30.i: Greedy_Algorithm/30.cpp.i
+Binary_Search/Number_Card.i: Binary_Search/Number_Card.cpp.i
 
-.PHONY : Greedy_Algorithm/30.i
+.PHONY : Binary_Search/Number_Card.i
 
 # target to preprocess a source file
-Greedy_Algorithm/30.cpp.i:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Greedy_Algorithm/30.cpp.i
-.PHONY : Greedy_Algorithm/30.cpp.i
+Binary_Search/Number_Card.cpp.i:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Number_Card.cpp.i
+.PHONY : Binary_Search/Number_Card.cpp.i
 
-Greedy_Algorithm/30.s: Greedy_Algorithm/30.cpp.s
+Binary_Search/Number_Card.s: Binary_Search/Number_Card.cpp.s
 
-.PHONY : Greedy_Algorithm/30.s
+.PHONY : Binary_Search/Number_Card.s
 
 # target to generate assembly for a file
-Greedy_Algorithm/30.cpp.s:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Greedy_Algorithm/30.cpp.s
-.PHONY : Greedy_Algorithm/30.cpp.s
+Binary_Search/Number_Card.cpp.s:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Number_Card.cpp.s
+.PHONY : Binary_Search/Number_Card.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Baekjoon"
-	@echo "... Greedy_Algorithm/30.o"
-	@echo "... Greedy_Algorithm/30.i"
-	@echo "... Greedy_Algorithm/30.s"
+	@echo "... Binary_Search/Number_Card.o"
+	@echo "... Binary_Search/Number_Card.i"
+	@echo "... Binary_Search/Number_Card.s"
 .PHONY : help
 
 

@@ -3,4 +3,4 @@ project(Baekjoon)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Baekjoon Greedy_Algorithm/30.cpp)
+add_executable(Baekjoon Binary_Search/Number_Card.cpp)

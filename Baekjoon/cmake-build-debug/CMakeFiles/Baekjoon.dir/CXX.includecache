@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Greedy_Algorithm/30.cpp
+/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Binary_Search/Number_Card.cpp
 iostream
 -
 algorithm
--
-stdlib.h
--
-string
 -
 
