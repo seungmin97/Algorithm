@@ -1,41 +1,37 @@
-//
-// Created by 이승민 on 2019-09-18.
-//
-
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
-
-int main(){
+int main() {
 
     int A, B, V;
     cin >> A >> B >> V;
 
-    int location = 0;
-   // int count = 0;
-    int left = 0;
-    int right = 1000000000;
+    long long left = 0;
+    long long right = 1000000000;
 
-    cout << A * 173184169 - B * (173184169 - 1);
+    long long location;
+    long long result = 1000000000;
+
     while(left <= right){
-        int mid = (left + right) / 2;
 
-        //낮위치
+        long long mid = (left + right) / 2;
+
         location = (A * mid) - (B * (mid - 1));
 
-        if((location < V + A) && (location >= V)){
-            cout << mid;
-            break;
+        if((location >= V) && (location < (V + A))){
+
+            //cout << location << endl;
+            result = min(result, mid);
+            right = mid - 1;
         }
-        else if(location >= V + A){
+        else if(location >= (V + A)){
             right = mid - 1;
         }
         else{
             left = mid + 1;
         }
-
     }
-
+    cout << result;
     return 0;
-
 }
