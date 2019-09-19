@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Baekjoon.dir/Binary_Search/Number_Card.cpp.o"
+  "CMakeFiles/Baekjoon.dir/Binary_Search/Cutting_Tree.cpp.o"
   "Baekjoon.pdb"
   "Baekjoon"
 )

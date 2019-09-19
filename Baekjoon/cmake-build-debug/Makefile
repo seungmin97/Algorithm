@@ -123,32 +123,32 @@ Baekjoon/fast:
 	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/build
 .PHONY : Baekjoon/fast
 
-Binary_Search/Number_Card.o: Binary_Search/Number_Card.cpp.o
+Binary_Search/Cutting_Tree.o: Binary_Search/Cutting_Tree.cpp.o
 
-.PHONY : Binary_Search/Number_Card.o
+.PHONY : Binary_Search/Cutting_Tree.o
 
 # target to build an object file
-Binary_Search/Number_Card.cpp.o:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Number_Card.cpp.o
-.PHONY : Binary_Search/Number_Card.cpp.o
+Binary_Search/Cutting_Tree.cpp.o:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Cutting_Tree.cpp.o
+.PHONY : Binary_Search/Cutting_Tree.cpp.o
 
-Binary_Search/Number_Card.i: Binary_Search/Number_Card.cpp.i
+Binary_Search/Cutting_Tree.i: Binary_Search/Cutting_Tree.cpp.i
 
-.PHONY : Binary_Search/Number_Card.i
+.PHONY : Binary_Search/Cutting_Tree.i
 
 # target to preprocess a source file
-Binary_Search/Number_Card.cpp.i:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Number_Card.cpp.i
-.PHONY : Binary_Search/Number_Card.cpp.i
+Binary_Search/Cutting_Tree.cpp.i:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Cutting_Tree.cpp.i
+.PHONY : Binary_Search/Cutting_Tree.cpp.i
 
-Binary_Search/Number_Card.s: Binary_Search/Number_Card.cpp.s
+Binary_Search/Cutting_Tree.s: Binary_Search/Cutting_Tree.cpp.s
 
-.PHONY : Binary_Search/Number_Card.s
+.PHONY : Binary_Search/Cutting_Tree.s
 
 # target to generate assembly for a file
-Binary_Search/Number_Card.cpp.s:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Number_Card.cpp.s
-.PHONY : Binary_Search/Number_Card.cpp.s
+Binary_Search/Cutting_Tree.cpp.s:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Cutting_Tree.cpp.s
+.PHONY : Binary_Search/Cutting_Tree.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Baekjoon"
-	@echo "... Binary_Search/Number_Card.o"
-	@echo "... Binary_Search/Number_Card.i"
-	@echo "... Binary_Search/Number_Card.s"
+	@echo "... Binary_Search/Cutting_Tree.o"
+	@echo "... Binary_Search/Cutting_Tree.i"
+	@echo "... Binary_Search/Cutting_Tree.s"
 .PHONY : help
 
 
