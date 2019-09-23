@@ -123,32 +123,32 @@ Baekjoon/fast:
 	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/build
 .PHONY : Baekjoon/fast
 
-Binary_Search/Cutting_Tree.o: Binary_Search/Cutting_Tree.cpp.o
+구현/Suger_Delivery.o: 구현/Suger_Delivery.cpp.o
 
-.PHONY : Binary_Search/Cutting_Tree.o
+.PHONY : 구현/Suger_Delivery.o
 
 # target to build an object file
-Binary_Search/Cutting_Tree.cpp.o:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Cutting_Tree.cpp.o
-.PHONY : Binary_Search/Cutting_Tree.cpp.o
+구현/Suger_Delivery.cpp.o:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/구현/Suger_Delivery.cpp.o
+.PHONY : 구현/Suger_Delivery.cpp.o
 
-Binary_Search/Cutting_Tree.i: Binary_Search/Cutting_Tree.cpp.i
+구현/Suger_Delivery.i: 구현/Suger_Delivery.cpp.i
 
-.PHONY : Binary_Search/Cutting_Tree.i
+.PHONY : 구현/Suger_Delivery.i
 
 # target to preprocess a source file
-Binary_Search/Cutting_Tree.cpp.i:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Cutting_Tree.cpp.i
-.PHONY : Binary_Search/Cutting_Tree.cpp.i
+구현/Suger_Delivery.cpp.i:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/구현/Suger_Delivery.cpp.i
+.PHONY : 구현/Suger_Delivery.cpp.i
 
-Binary_Search/Cutting_Tree.s: Binary_Search/Cutting_Tree.cpp.s
+구현/Suger_Delivery.s: 구현/Suger_Delivery.cpp.s
 
-.PHONY : Binary_Search/Cutting_Tree.s
+.PHONY : 구현/Suger_Delivery.s
 
 # target to generate assembly for a file
-Binary_Search/Cutting_Tree.cpp.s:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Binary_Search/Cutting_Tree.cpp.s
-.PHONY : Binary_Search/Cutting_Tree.cpp.s
+구현/Suger_Delivery.cpp.s:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/구현/Suger_Delivery.cpp.s
+.PHONY : 구현/Suger_Delivery.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Baekjoon"
-	@echo "... Binary_Search/Cutting_Tree.o"
-	@echo "... Binary_Search/Cutting_Tree.i"
-	@echo "... Binary_Search/Cutting_Tree.s"
+	@echo "... 구현/Suger_Delivery.o"
+	@echo "... 구현/Suger_Delivery.i"
+	@echo "... 구현/Suger_Delivery.s"
 .PHONY : help
 
 
