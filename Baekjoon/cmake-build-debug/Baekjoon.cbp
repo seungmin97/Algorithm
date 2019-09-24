@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Baekjoon/구현/Suger_Delivery.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Simulation/Printer_Queue.cpp">
 			<Option target="Baekjoon"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Baekjoon/CMakeLists.txt">

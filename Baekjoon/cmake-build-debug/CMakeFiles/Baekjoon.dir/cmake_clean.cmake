@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Baekjoon.dir/구현/Suger_Delivery.cpp.o"
+  "CMakeFiles/Baekjoon.dir/Simulation/Printer_Queue.cpp.o"
   "Baekjoon.pdb"
   "Baekjoon"
 )

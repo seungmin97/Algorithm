@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/leeseungmin/Desktop/Algorithm/Baekjoon/구현/Suger_Delivery.cpp" "/Users/leeseungmin/Desktop/Algorithm/Baekjoon/cmake-build-debug/CMakeFiles/Baekjoon.dir/구현/Suger_Delivery.cpp.o"
+  "/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Simulation/Printer_Queue.cpp" "/Users/leeseungmin/Desktop/Algorithm/Baekjoon/cmake-build-debug/CMakeFiles/Baekjoon.dir/Simulation/Printer_Queue.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

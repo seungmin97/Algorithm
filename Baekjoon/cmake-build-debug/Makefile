@@ -123,32 +123,32 @@ Baekjoon/fast:
 	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/build
 .PHONY : Baekjoon/fast
 
-구현/Suger_Delivery.o: 구현/Suger_Delivery.cpp.o
+Simulation/Printer_Queue.o: Simulation/Printer_Queue.cpp.o
 
-.PHONY : 구현/Suger_Delivery.o
+.PHONY : Simulation/Printer_Queue.o
 
 # target to build an object file
-구현/Suger_Delivery.cpp.o:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/구현/Suger_Delivery.cpp.o
-.PHONY : 구현/Suger_Delivery.cpp.o
+Simulation/Printer_Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Printer_Queue.cpp.o
+.PHONY : Simulation/Printer_Queue.cpp.o
 
-구현/Suger_Delivery.i: 구현/Suger_Delivery.cpp.i
+Simulation/Printer_Queue.i: Simulation/Printer_Queue.cpp.i
 
-.PHONY : 구현/Suger_Delivery.i
+.PHONY : Simulation/Printer_Queue.i
 
 # target to preprocess a source file
-구현/Suger_Delivery.cpp.i:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/구현/Suger_Delivery.cpp.i
-.PHONY : 구현/Suger_Delivery.cpp.i
+Simulation/Printer_Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Printer_Queue.cpp.i
+.PHONY : Simulation/Printer_Queue.cpp.i
 
-구현/Suger_Delivery.s: 구현/Suger_Delivery.cpp.s
+Simulation/Printer_Queue.s: Simulation/Printer_Queue.cpp.s
 
-.PHONY : 구현/Suger_Delivery.s
+.PHONY : Simulation/Printer_Queue.s
 
 # target to generate assembly for a file
-구현/Suger_Delivery.cpp.s:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/구현/Suger_Delivery.cpp.s
-.PHONY : 구현/Suger_Delivery.cpp.s
+Simulation/Printer_Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Printer_Queue.cpp.s
+.PHONY : Simulation/Printer_Queue.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Baekjoon"
-	@echo "... 구현/Suger_Delivery.o"
-	@echo "... 구현/Suger_Delivery.i"
-	@echo "... 구현/Suger_Delivery.s"
+	@echo "... Simulation/Printer_Queue.o"
+	@echo "... Simulation/Printer_Queue.i"
+	@echo "... Simulation/Printer_Queue.s"
 .PHONY : help
 
 

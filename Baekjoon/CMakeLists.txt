@@ -3,4 +3,4 @@ project(Baekjoon)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Baekjoon 구현/Suger_Delivery.cpp)
+add_executable(Baekjoon Simulation/Printer_Queue.cpp)
