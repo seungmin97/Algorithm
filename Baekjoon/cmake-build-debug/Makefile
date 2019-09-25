@@ -123,32 +123,32 @@ Baekjoon/fast:
 	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/build
 .PHONY : Baekjoon/fast
 
-Simulation/Rotation_Queue.o: Simulation/Rotation_Queue.cpp.o
+Simulation/Printer_Queue.o: Simulation/Printer_Queue.cpp.o
 
-.PHONY : Simulation/Rotation_Queue.o
+.PHONY : Simulation/Printer_Queue.o
 
 # target to build an object file
-Simulation/Rotation_Queue.cpp.o:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Rotation_Queue.cpp.o
-.PHONY : Simulation/Rotation_Queue.cpp.o
+Simulation/Printer_Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Printer_Queue.cpp.o
+.PHONY : Simulation/Printer_Queue.cpp.o
 
-Simulation/Rotation_Queue.i: Simulation/Rotation_Queue.cpp.i
+Simulation/Printer_Queue.i: Simulation/Printer_Queue.cpp.i
 
-.PHONY : Simulation/Rotation_Queue.i
+.PHONY : Simulation/Printer_Queue.i
 
 # target to preprocess a source file
-Simulation/Rotation_Queue.cpp.i:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Rotation_Queue.cpp.i
-.PHONY : Simulation/Rotation_Queue.cpp.i
+Simulation/Printer_Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Printer_Queue.cpp.i
+.PHONY : Simulation/Printer_Queue.cpp.i
 
-Simulation/Rotation_Queue.s: Simulation/Rotation_Queue.cpp.s
+Simulation/Printer_Queue.s: Simulation/Printer_Queue.cpp.s
 
-.PHONY : Simulation/Rotation_Queue.s
+.PHONY : Simulation/Printer_Queue.s
 
 # target to generate assembly for a file
-Simulation/Rotation_Queue.cpp.s:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Rotation_Queue.cpp.s
-.PHONY : Simulation/Rotation_Queue.cpp.s
+Simulation/Printer_Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Printer_Queue.cpp.s
+.PHONY : Simulation/Printer_Queue.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Baekjoon"
-	@echo "... Simulation/Rotation_Queue.o"
-	@echo "... Simulation/Rotation_Queue.i"
-	@echo "... Simulation/Rotation_Queue.s"
+	@echo "... Simulation/Printer_Queue.o"
+	@echo "... Simulation/Printer_Queue.i"
+	@echo "... Simulation/Printer_Queue.s"
 .PHONY : help
 
 

@@ -3,4 +3,4 @@ project(Baekjoon)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Baekjoon Simulation/Rotation_Queue.cpp)
+add_executable(Baekjoon Simulation/Printer_Queue.cpp)
