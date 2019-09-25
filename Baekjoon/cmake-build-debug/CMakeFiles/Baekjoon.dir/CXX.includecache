@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Simulation/Printer_Queue.cpp
+/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Simulation/Rotation_Queue.cpp
 iostream
--
-vector
 -
 algorithm
 -
-cstring
+vector
 -
 
