@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Simulation/Printer_Queue.cpp
+/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Simulation/Snake.cpp
 iostream
 -
-vector
--
-algorithm
--
 cstring
+-
+vector
 -
 

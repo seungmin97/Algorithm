@@ -123,32 +123,32 @@ Baekjoon/fast:
 	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/build
 .PHONY : Baekjoon/fast
 
-Simulation/Printer_Queue.o: Simulation/Printer_Queue.cpp.o
+Simulation/Snake.o: Simulation/Snake.cpp.o
 
-.PHONY : Simulation/Printer_Queue.o
+.PHONY : Simulation/Snake.o
 
 # target to build an object file
-Simulation/Printer_Queue.cpp.o:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Printer_Queue.cpp.o
-.PHONY : Simulation/Printer_Queue.cpp.o
+Simulation/Snake.cpp.o:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Snake.cpp.o
+.PHONY : Simulation/Snake.cpp.o
 
-Simulation/Printer_Queue.i: Simulation/Printer_Queue.cpp.i
+Simulation/Snake.i: Simulation/Snake.cpp.i
 
-.PHONY : Simulation/Printer_Queue.i
+.PHONY : Simulation/Snake.i
 
 # target to preprocess a source file
-Simulation/Printer_Queue.cpp.i:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Printer_Queue.cpp.i
-.PHONY : Simulation/Printer_Queue.cpp.i
+Simulation/Snake.cpp.i:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Snake.cpp.i
+.PHONY : Simulation/Snake.cpp.i
 
-Simulation/Printer_Queue.s: Simulation/Printer_Queue.cpp.s
+Simulation/Snake.s: Simulation/Snake.cpp.s
 
-.PHONY : Simulation/Printer_Queue.s
+.PHONY : Simulation/Snake.s
 
 # target to generate assembly for a file
-Simulation/Printer_Queue.cpp.s:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Printer_Queue.cpp.s
-.PHONY : Simulation/Printer_Queue.cpp.s
+Simulation/Snake.cpp.s:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Snake.cpp.s
+.PHONY : Simulation/Snake.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Baekjoon"
-	@echo "... Simulation/Printer_Queue.o"
-	@echo "... Simulation/Printer_Queue.i"
-	@echo "... Simulation/Printer_Queue.s"
+	@echo "... Simulation/Snake.o"
+	@echo "... Simulation/Snake.i"
+	@echo "... Simulation/Snake.s"
 .PHONY : help
 
 
