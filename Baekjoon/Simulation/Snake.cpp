@@ -13,6 +13,42 @@ using namespace std;
 vector <pair <int, int>> snake;
 vector <pair <int, int>> change;
 
+char change_direction(char direction, char temp){
+   if(direction == 'R'){
+
+       if(temp == 'L'){
+           return 'U';
+       }
+       else{
+           return 'D';
+       }
+   }
+   else if(direction == 'L'){
+       if(temp == 'L'){
+           return 'D';
+       }
+       else {
+           return 'U';
+       }
+   }
+   else if(direction == 'D'){
+      if(temp == 'L'){
+           return 'R';
+       }
+       else{
+           return 'L';
+       }
+   }
+   else{
+       if(temp == 'L'){
+           return 'L';
+       }
+       else{
+           return 'R';
+       }
+   }
+}
+
 int next_x(char direction, int x_){
     if((direction == 'L') || (direction == 'R')){
         return x_;
@@ -80,31 +116,38 @@ int main(){
         x_ = next_x(direction, x_);
         y_ = next_y(direction, y_);
 
+        cout << direction << " ";
         if(time == change[0].first){
-            direction = change[0].second;
+            direction = change_direction(direction, change[0].second);
+            //direction = change[0].second;
             change.erase(change.begin() + 0);
         }
 
         if((x_ <= 0) || (x_ > N) || (y_ <= 0) || (y_ > N)){
+            cout <<'(' <<  x_ << ',' << y_ << ')' << " " << endl;
             cout << time;
             return 0;
         }
         else if(arr[x_][y_] == -1){
+            cout <<'(' <<  x_ << ',' << y_ << ')' << " " << endl;
             cout << time;
             return 0;
         }
 
         snake.push_back(make_pair(x_, y_));
-        arr[x_][y_] = -1;
+        //arr[x_][y_] = -1;
 
         if(arr[x_][y_] == 0){
             arr[snake[0].first][snake[0].second] = 0;
             snake.erase(snake.begin() + 0);
         }
-        else{
-            arr[x_][y_] = 0;
-        }
 
+        arr[x_][y_] = -1;
+
+        for (int i = 0; i < snake.size(); ++i) {
+            cout <<'(' <<  snake[i].first << ',' << snake[i].second << ')' << " ";
+        }
+        cout << endl;
         time += 1;
 
     }

@@ -12,11 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="519f6954-cb12-44b7-a7ff-e858ca3facf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Simulation/Snake.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation/Snake.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Snake.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Simulation/Printer_Queue.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="315">
               <caret line="21" column="14" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
@@ -85,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Simulation/Snake.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+            <state relative-caret-position="523">
+              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -161,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,6 +174,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,22 +224,24 @@
       <workItem from="1569198028744" duration="2068000" />
       <workItem from="1569286680402" duration="3500000" />
       <workItem from="1569546427592" duration="4889000" />
+      <workItem from="1569898733224" duration="957000" />
+      <workItem from="1569974858640" duration="4459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33969000" />
+    <option name="totallyTimeSpent" value="39385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28540772" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28554216" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28554216" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -307,7 +306,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Simulation/Snake.cpp</url>
-          <line>73</line>
+          <line>109</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
@@ -315,11 +314,35 @@
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="change[0].first" language="ObjectiveC" />
+        <watch expression="snake.size()" language="ObjectiveC" />
+        <watch expression="snake[0].first" language="ObjectiveC" />
+        <watch expression="snake[0].second" language="ObjectiveC" />
+        <watch expression="arr[1][9]" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>arr[1][9]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>snake[0].second</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>snake[0].first</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>snake.size()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>change[0].first</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -347,26 +370,6 @@
       </expression>
       <expression>
         <expression-string>arr[3]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr[2]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr[1]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr[0]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>result[i]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -446,6 +449,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BruteForce/Big.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -464,6 +474,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simulation/Printer_Queue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
@@ -493,27 +513,10 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simulation/Printer_Queue.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Simulation/Snake.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+        <state relative-caret-position="523">
+          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
