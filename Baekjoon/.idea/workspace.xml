@@ -13,6 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="519f6954-cb12-44b7-a7ff-e858ca3facf0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation/Snake.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Snake.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Baekjoon" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Baekjoon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/Simulation/Snake.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/Simulation/Snake.cpp.o" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,11 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Simulation/Snake.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
-              <folding>
-                <element signature="e#40#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -224,18 +224,19 @@
       <workItem from="1569286680402" duration="3500000" />
       <workItem from="1569546427592" duration="4889000" />
       <workItem from="1569898733224" duration="957000" />
-      <workItem from="1569974858640" duration="4918000" />
+      <workItem from="1569974858640" duration="5305000" />
+      <workItem from="1570148751278" duration="1362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39844000" />
+    <option name="totallyTimeSpent" value="41593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2932761" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29756796" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,11 +303,6 @@
           <url>file://$PROJECT_DIR$/Simulation/Printer_Queue.cpp</url>
           <line>70</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Simulation/Snake.cpp</url>
-          <line>109</line>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -514,11 +510,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Simulation/Snake.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="91" column="17" lean-forward="true" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
         </state>
       </provider>
     </entry>

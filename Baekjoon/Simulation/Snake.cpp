@@ -2,11 +2,10 @@
 // Created by 이승민 on 2019-09-27.
 //
 
-//두번째 예제
 #include <iostream>
 #include <cstring>
 #include <vector>
-#define Max 100
+#define Max 101
 
 using namespace std;
 
@@ -78,15 +77,14 @@ int next_y(char direction, int y_){
 
 int main(){
 
-    int arr[100][100];
+    int arr[Max][Max];
 
     int N;
     cin >> N;
 
-    for (int i = 0; i <= N; ++i) {
-        memset(arr[i], 0, Max);
+    for (int i = 0; i < N  ; ++i) {
+        memset(arr[i], 0, Max * sizeof(int));
     }
-
 
     int K;
     cin >> K;
@@ -114,24 +112,18 @@ int main(){
 
     while(1){
 
+
         x_ = next_x(direction, x_);
         y_ = next_y(direction, y_);
 
-        cout << direction << " ";
-        if(time == change[0].first){
-            direction = change_direction(direction, change[0].second);
-            //direction = change[0].second;
-            change.erase(change.begin() + 0);
-        }
-
         if((x_ <= 0) || (x_ > N) || (y_ <= 0) || (y_ > N)){
-            cout <<'(' <<  x_ << ',' << y_ << ')' << " " << endl;
-            cout << time;
+            //cout <<'(' <<  x_ << ',' << y_ << ')' << " " << endl;
+            cout << time + 1;
             return 0;
         }
         else if(arr[x_][y_] == -1){
-            cout <<'(' <<  x_ << ',' << y_ << ')' << " " << endl;
-            cout << time;
+            //cout <<'(' <<  x_ << ',' << y_ << ')' << " " << endl;
+            cout << time + 1;
             return 0;
         }
 
@@ -144,12 +136,12 @@ int main(){
         }
 
         arr[x_][y_] = -1;
-
-        for (int i = 0; i < snake.size(); ++i) {
-            cout <<'(' <<  snake[i].first << ',' << snake[i].second << ')' << " ";
-        }
-        cout << endl;
         time += 1;
+        if(time == change[0].first){
+            direction = change_direction(direction, change[0].second);
+            //direction = change[0].second;
+            change.erase(change.begin() + 0);
+        }
 
     }
 
