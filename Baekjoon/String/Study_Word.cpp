@@ -25,6 +25,7 @@ int main(){
             alphabet[temp - 97] += 1;
         }
     }
+    
     int max = 0;
     int index = 0;
     int check = 0;
