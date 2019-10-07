@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/leeseungmin/Desktop/Algorithm/Kakao/1차/비밀지도.cpp
+iostream
+-
+vector
+-
+cstring
+-
+
