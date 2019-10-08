@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Kakao/1차/비밀지도.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Kakao/1차/다트게임.cpp">
 			<Option target="Kakao"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Kakao/CMakeLists.txt">

@@ -3,4 +3,4 @@ project(Kakao)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Kakao 1차/비밀지도.cpp)
+add_executable(Kakao 1차/다트게임.cpp)

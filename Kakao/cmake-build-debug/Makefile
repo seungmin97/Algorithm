@@ -123,32 +123,32 @@ Kakao/fast:
 	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/build
 .PHONY : Kakao/fast
 
-1차/비밀지도.o: 1차/비밀지도.cpp.o
+1차/다트게임.o: 1차/다트게임.cpp.o
 
-.PHONY : 1차/비밀지도.o
+.PHONY : 1차/다트게임.o
 
 # target to build an object file
-1차/비밀지도.cpp.o:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/비밀지도.cpp.o
-.PHONY : 1차/비밀지도.cpp.o
+1차/다트게임.cpp.o:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/다트게임.cpp.o
+.PHONY : 1차/다트게임.cpp.o
 
-1차/비밀지도.i: 1차/비밀지도.cpp.i
+1차/다트게임.i: 1차/다트게임.cpp.i
 
-.PHONY : 1차/비밀지도.i
+.PHONY : 1차/다트게임.i
 
 # target to preprocess a source file
-1차/비밀지도.cpp.i:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/비밀지도.cpp.i
-.PHONY : 1차/비밀지도.cpp.i
+1차/다트게임.cpp.i:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/다트게임.cpp.i
+.PHONY : 1차/다트게임.cpp.i
 
-1차/비밀지도.s: 1차/비밀지도.cpp.s
+1차/다트게임.s: 1차/다트게임.cpp.s
 
-.PHONY : 1차/비밀지도.s
+.PHONY : 1차/다트게임.s
 
 # target to generate assembly for a file
-1차/비밀지도.cpp.s:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/비밀지도.cpp.s
-.PHONY : 1차/비밀지도.cpp.s
+1차/다트게임.cpp.s:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/다트게임.cpp.s
+.PHONY : 1차/다트게임.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Kakao"
-	@echo "... 1차/비밀지도.o"
-	@echo "... 1차/비밀지도.i"
-	@echo "... 1차/비밀지도.s"
+	@echo "... 1차/다트게임.o"
+	@echo "... 1차/다트게임.i"
+	@echo "... 1차/다트게임.s"
 .PHONY : help
 
 
