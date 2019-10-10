@@ -14,39 +14,39 @@ vector <pair <int, int>> snake;
 vector <pair <int, int>> change;
 
 char change_direction(char direction, char temp){
-   if(direction == 'R'){
+    if(direction == 'R'){
 
-       if(temp == 'L'){
-           return 'U';
-       }
-       else{
-           return 'D';
-       }
-   }
-   else if(direction == 'L'){
-       if(temp == 'L'){
-           return 'D';
-       }
-       else {
-           return 'U';
-       }
-   }
-   else if(direction == 'D'){
-      if(temp == 'L'){
-           return 'R';
-       }
-       else{
-           return 'L';
-       }
-   }
-   else{
-       if(temp == 'L'){
-           return 'L';
-       }
-       else{
-           return 'R';
-       }
-   }
+        if(temp == 'L'){
+            return 'U';
+        }
+        else{
+            return 'D';
+        }
+    }
+    else if(direction == 'L'){
+        if(temp == 'L'){
+            return 'D';
+        }
+        else {
+            return 'U';
+        }
+    }
+    else if(direction == 'D'){
+        if(temp == 'L'){
+            return 'R';
+        }
+        else{
+            return 'L';
+        }
+    }
+    else{
+        if(temp == 'L'){
+            return 'L';
+        }
+        else{
+            return 'R';
+        }
+    }
 }
 
 int next_x(char direction, int x_){
