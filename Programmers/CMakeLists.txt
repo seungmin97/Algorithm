@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers Hash/완주하지_못한_선수.cpp)
+add_executable(Programmers Hash/camouflage.cpp)

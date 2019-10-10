@@ -12,7 +12,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8470ae91-d48d-40a7-8cd2-64422ab479e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1차/캐시.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1차/뉴스_클러스터링.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Hash/camouflage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Kakao.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Kakao" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Kakao" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Kakao.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Kakao.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Programmers" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Programmers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Programmers.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Programmers.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -56,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1차/다트게임.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="753">
+            <state relative-caret-position="870">
               <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
@@ -65,14 +90,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1차/캐시.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1차/뉴스_클러스터링.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -95,9 +129,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/1차/비밀지도.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/1차/다트게임.cpp" />
         <option value="$PROJECT_DIR$/1차/캐시.cpp" />
+        <option value="$PROJECT_DIR$/1차/셔틀버스.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/1차/뉴스_클러스터링.cpp" />
       </list>
     </option>
   </component>
@@ -169,18 +205,20 @@
       <workItem from="1570411137127" duration="1745000" />
       <workItem from="1570425632014" duration="6000" />
       <workItem from="1570452698589" duration="1735000" />
-      <workItem from="1570669737030" duration="48000" />
+      <workItem from="1570669737030" duration="159000" />
+      <workItem from="1570691036881" duration="2092000" />
+      <workItem from="1570714069432" duration="802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3534000" />
+    <option name="totallyTimeSpent" value="6539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -191,7 +229,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -237,13 +275,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -257,6 +288,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1차/다트게임.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/include/string.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1095">
@@ -264,10 +305,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1차/다트게임.cpp">
+    <entry file="file://$PROJECT_DIR$/1차/셔틀버스.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        <state relative-caret-position="990">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
@@ -277,10 +318,24 @@
     <entry file="file://$PROJECT_DIR$/1차/캐시.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1차/뉴스_클러스터링.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>

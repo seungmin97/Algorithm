@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Hash/완주하지_못한_선수.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Hash/camouflage.cpp
 iostream
 -
-cstdio
--
-hash_map
--
-string
--
 vector
+-
+algorithm
 -
 

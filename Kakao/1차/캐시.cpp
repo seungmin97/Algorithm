@@ -17,7 +17,7 @@ int main() {
 
     for (int i = 0; i < Size; i++)
     {
-        transform(cities[i].begin(), cities[i].end(), cities[i].begin(), toupper);
+        transform(cities[i].begin(), cities[i].end(), cities[i].begin(),  (int(*)(int))toupper);
     }
     vector <string> v;
 
