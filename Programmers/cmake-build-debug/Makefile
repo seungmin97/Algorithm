@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Hash/camouflage.o: Hash/camouflage.cpp.o
+Hash/bestAlbum.o: Hash/bestAlbum.cpp.o
 
-.PHONY : Hash/camouflage.o
+.PHONY : Hash/bestAlbum.o
 
 # target to build an object file
-Hash/camouflage.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/camouflage.cpp.o
-.PHONY : Hash/camouflage.cpp.o
+Hash/bestAlbum.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/bestAlbum.cpp.o
+.PHONY : Hash/bestAlbum.cpp.o
 
-Hash/camouflage.i: Hash/camouflage.cpp.i
+Hash/bestAlbum.i: Hash/bestAlbum.cpp.i
 
-.PHONY : Hash/camouflage.i
+.PHONY : Hash/bestAlbum.i
 
 # target to preprocess a source file
-Hash/camouflage.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/camouflage.cpp.i
-.PHONY : Hash/camouflage.cpp.i
+Hash/bestAlbum.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/bestAlbum.cpp.i
+.PHONY : Hash/bestAlbum.cpp.i
 
-Hash/camouflage.s: Hash/camouflage.cpp.s
+Hash/bestAlbum.s: Hash/bestAlbum.cpp.s
 
-.PHONY : Hash/camouflage.s
+.PHONY : Hash/bestAlbum.s
 
 # target to generate assembly for a file
-Hash/camouflage.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/camouflage.cpp.s
-.PHONY : Hash/camouflage.cpp.s
+Hash/bestAlbum.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/bestAlbum.cpp.s
+.PHONY : Hash/bestAlbum.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Hash/camouflage.o"
-	@echo "... Hash/camouflage.i"
-	@echo "... Hash/camouflage.s"
+	@echo "... Hash/bestAlbum.o"
+	@echo "... Hash/bestAlbum.i"
+	@echo "... Hash/bestAlbum.s"
 .PHONY : help
 
 

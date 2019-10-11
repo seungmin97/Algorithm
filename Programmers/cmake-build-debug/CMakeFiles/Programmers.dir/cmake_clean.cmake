@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Hash/camouflage.cpp.o"
+  "CMakeFiles/Programmers.dir/Hash/bestAlbum.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )
