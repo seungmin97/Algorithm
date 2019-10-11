@@ -10,68 +10,41 @@ using namespace std;
 
 
 int solution(vector<vector<string>> clothes) {
-    int answer = 0;
-    vector <string> num;
-    vector <string>::iterator it;
+    int answer = 1;
+
     vector <vector<string>> v;
+    vector <string> k;
 
-    for (int i = 0; i < clothes.size(); ++i) {
-        it = find(num.begin(), num.end(), clothes[i][1]);
-        if(it == num.end()){
-            num.push_back(clothes[i][1]);
+    for (int j = 0; j < clothes.size(); ++j) {
+        vector <string>::iterator it;
+        it = find(k.begin(), k.end(), clothes[j][1]);
 
-            v[num.size() - 1].push_back(clothes[i][0]);
-        }
-        else{
-            int index = it - v.begin();
-            v[index].push_back(clothes[i][0]);
+        if(it == k.end()){
+            k.push_back(clothes[j][1]);
+            vector <string> temp;
+
+            for (int i = 0; i < clothes.size(); ++i) {
+                if(clothes[j][1] == clothes[i][1]){
+                    temp.push_back(clothes[i][0]);
+                }
+            }
+            v.push_back(temp);
         }
     }
 
-
-    cout << v.size();
-
+    for (int i = 0; i < v.size(); ++i) {
+        answer *=(v[i].size() + 1);
+    }
+    answer -= 1;
     return answer;
 }
 
 int main(){
 
-    vector <vector<string>> clothes;
 
-    vector <string> temp;
+    vector<vector<string>> clothes = {{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
+    //vector<vector<string>> clothes = {{"crow_mast", "face"}, {"blue_sunglasses", "face"}, {"smoky_makeup", "face"}};
 
-    temp.push_back("yelloww_hat");
-    temp.push_back("headgear");
-    clothes.push_back(temp);
-    temp.clear();
-
-    temp.push_back("blue_sunglasses");
-    temp.push_back("eyewear");
-    clothes.push_back(temp);
-    temp.clear();
-
-    temp.push_back("green_turban");
-    temp.push_back("headgear");
-    clothes.push_back(temp);
-    temp.clear();
-
-    /*
-    temp.push_back("crow_mask");
-    temp.push_back("face");
-    clothes.push_back(temp);
-    temp.clear();
-
-    temp.push_back("blue_sunglasses");
-    temp.push_back("face");
-    clothes.push_back(temp);
-    temp.clear();
-
-    temp.push_back("smoky_makeup");
-    temp.push_back("face");
-    clothes.push_back(temp);
-    temp.clear();*/
-
-    solution(clothes);
-
+    cout << solution(clothes);
     return 0;
 }
