@@ -123,32 +123,32 @@ Kakao/fast:
 	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/build
 .PHONY : Kakao/fast
 
-1차/뉴스클러스터링.o: 1차/뉴스클러스터링.cpp.o
+1차/셔틀버스.o: 1차/셔틀버스.cpp.o
 
-.PHONY : 1차/뉴스클러스터링.o
+.PHONY : 1차/셔틀버스.o
 
 # target to build an object file
-1차/뉴스클러스터링.cpp.o:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/뉴스클러스터링.cpp.o
-.PHONY : 1차/뉴스클러스터링.cpp.o
+1차/셔틀버스.cpp.o:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/셔틀버스.cpp.o
+.PHONY : 1차/셔틀버스.cpp.o
 
-1차/뉴스클러스터링.i: 1차/뉴스클러스터링.cpp.i
+1차/셔틀버스.i: 1차/셔틀버스.cpp.i
 
-.PHONY : 1차/뉴스클러스터링.i
+.PHONY : 1차/셔틀버스.i
 
 # target to preprocess a source file
-1차/뉴스클러스터링.cpp.i:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/뉴스클러스터링.cpp.i
-.PHONY : 1차/뉴스클러스터링.cpp.i
+1차/셔틀버스.cpp.i:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/셔틀버스.cpp.i
+.PHONY : 1차/셔틀버스.cpp.i
 
-1차/뉴스클러스터링.s: 1차/뉴스클러스터링.cpp.s
+1차/셔틀버스.s: 1차/셔틀버스.cpp.s
 
-.PHONY : 1차/뉴스클러스터링.s
+.PHONY : 1차/셔틀버스.s
 
 # target to generate assembly for a file
-1차/뉴스클러스터링.cpp.s:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/뉴스클러스터링.cpp.s
-.PHONY : 1차/뉴스클러스터링.cpp.s
+1차/셔틀버스.cpp.s:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/셔틀버스.cpp.s
+.PHONY : 1차/셔틀버스.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Kakao"
-	@echo "... 1차/뉴스클러스터링.o"
-	@echo "... 1차/뉴스클러스터링.i"
-	@echo "... 1차/뉴스클러스터링.s"
+	@echo "... 1차/셔틀버스.o"
+	@echo "... 1차/셔틀버스.i"
+	@echo "... 1차/셔틀버스.s"
 .PHONY : help
 
 
