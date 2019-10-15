@@ -35,7 +35,7 @@ int main(){
             , "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59", "23:59"};*/
 
     vector <pair<int, int>> v;
-    for (int i = 0; i < 3; ++i) {
+    for (int i = 0; i < 4; ++i) {
         int hour = stoi(str[i].substr(0, 2));
         int minute = stoi(str[i].substr(3,5));
         v.push_back(make_pair(hour,minute));
@@ -53,6 +53,7 @@ int main(){
     for (int i = 0; i < n; ++i) {
 
         int people = 0;
+
         for (int j = 0; j < v.size(); ++j) {
             if(start_hour >= v[j].first && start_minute >= v[j].second){
                 people += 1;

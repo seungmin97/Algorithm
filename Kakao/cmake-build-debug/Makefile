@@ -123,32 +123,32 @@ Kakao/fast:
 	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/build
 .PHONY : Kakao/fast
 
-1차/셔틀버스.o: 1차/셔틀버스.cpp.o
+1차/프렌즈4블.o: 1차/프렌즈4블.cpp.o
 
-.PHONY : 1차/셔틀버스.o
+.PHONY : 1차/프렌즈4블.o
 
 # target to build an object file
-1차/셔틀버스.cpp.o:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/셔틀버스.cpp.o
-.PHONY : 1차/셔틀버스.cpp.o
+1차/프렌즈4블.cpp.o:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/프렌즈4블.cpp.o
+.PHONY : 1차/프렌즈4블.cpp.o
 
-1차/셔틀버스.i: 1차/셔틀버스.cpp.i
+1차/프렌즈4블.i: 1차/프렌즈4블.cpp.i
 
-.PHONY : 1차/셔틀버스.i
+.PHONY : 1차/프렌즈4블.i
 
 # target to preprocess a source file
-1차/셔틀버스.cpp.i:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/셔틀버스.cpp.i
-.PHONY : 1차/셔틀버스.cpp.i
+1차/프렌즈4블.cpp.i:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/프렌즈4블.cpp.i
+.PHONY : 1차/프렌즈4블.cpp.i
 
-1차/셔틀버스.s: 1차/셔틀버스.cpp.s
+1차/프렌즈4블.s: 1차/프렌즈4블.cpp.s
 
-.PHONY : 1차/셔틀버스.s
+.PHONY : 1차/프렌즈4블.s
 
 # target to generate assembly for a file
-1차/셔틀버스.cpp.s:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/셔틀버스.cpp.s
-.PHONY : 1차/셔틀버스.cpp.s
+1차/프렌즈4블.cpp.s:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/프렌즈4블.cpp.s
+.PHONY : 1차/프렌즈4블.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Kakao"
-	@echo "... 1차/셔틀버스.o"
-	@echo "... 1차/셔틀버스.i"
-	@echo "... 1차/셔틀버스.s"
+	@echo "... 1차/프렌즈4블.o"
+	@echo "... 1차/프렌즈4블.i"
+	@echo "... 1차/프렌즈4블.s"
 .PHONY : help
 
 
