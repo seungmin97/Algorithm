@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Hash/bestAlbum.o: Hash/bestAlbum.cpp.o
+Stack_Queue/solution.o: Stack_Queue/solution.cpp.o
 
-.PHONY : Hash/bestAlbum.o
+.PHONY : Stack_Queue/solution.o
 
 # target to build an object file
-Hash/bestAlbum.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/bestAlbum.cpp.o
-.PHONY : Hash/bestAlbum.cpp.o
+Stack_Queue/solution.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Stack_Queue/solution.cpp.o
+.PHONY : Stack_Queue/solution.cpp.o
 
-Hash/bestAlbum.i: Hash/bestAlbum.cpp.i
+Stack_Queue/solution.i: Stack_Queue/solution.cpp.i
 
-.PHONY : Hash/bestAlbum.i
+.PHONY : Stack_Queue/solution.i
 
 # target to preprocess a source file
-Hash/bestAlbum.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/bestAlbum.cpp.i
-.PHONY : Hash/bestAlbum.cpp.i
+Stack_Queue/solution.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Stack_Queue/solution.cpp.i
+.PHONY : Stack_Queue/solution.cpp.i
 
-Hash/bestAlbum.s: Hash/bestAlbum.cpp.s
+Stack_Queue/solution.s: Stack_Queue/solution.cpp.s
 
-.PHONY : Hash/bestAlbum.s
+.PHONY : Stack_Queue/solution.s
 
 # target to generate assembly for a file
-Hash/bestAlbum.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/bestAlbum.cpp.s
-.PHONY : Hash/bestAlbum.cpp.s
+Stack_Queue/solution.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Stack_Queue/solution.cpp.s
+.PHONY : Stack_Queue/solution.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Hash/bestAlbum.o"
-	@echo "... Hash/bestAlbum.i"
-	@echo "... Hash/bestAlbum.s"
+	@echo "... Stack_Queue/solution.o"
+	@echo "... Stack_Queue/solution.i"
+	@echo "... Stack_Queue/solution.s"
 .PHONY : help
 
 

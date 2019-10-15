@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Hash/bestAlbum.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Stack_Queue/solution.cpp
 iostream
 -
-vector
--
-unordered_map
--
-algorithm
--
-tuple
--
 string
+-
+vector
 -
 
