@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Stack_Queue/solution.o: Stack_Queue/solution.cpp.o
+Hash/failPlayer.o: Hash/failPlayer.cpp.o
 
-.PHONY : Stack_Queue/solution.o
+.PHONY : Hash/failPlayer.o
 
 # target to build an object file
-Stack_Queue/solution.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Stack_Queue/solution.cpp.o
-.PHONY : Stack_Queue/solution.cpp.o
+Hash/failPlayer.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/failPlayer.cpp.o
+.PHONY : Hash/failPlayer.cpp.o
 
-Stack_Queue/solution.i: Stack_Queue/solution.cpp.i
+Hash/failPlayer.i: Hash/failPlayer.cpp.i
 
-.PHONY : Stack_Queue/solution.i
+.PHONY : Hash/failPlayer.i
 
 # target to preprocess a source file
-Stack_Queue/solution.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Stack_Queue/solution.cpp.i
-.PHONY : Stack_Queue/solution.cpp.i
+Hash/failPlayer.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/failPlayer.cpp.i
+.PHONY : Hash/failPlayer.cpp.i
 
-Stack_Queue/solution.s: Stack_Queue/solution.cpp.s
+Hash/failPlayer.s: Hash/failPlayer.cpp.s
 
-.PHONY : Stack_Queue/solution.s
+.PHONY : Hash/failPlayer.s
 
 # target to generate assembly for a file
-Stack_Queue/solution.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Stack_Queue/solution.cpp.s
-.PHONY : Stack_Queue/solution.cpp.s
+Hash/failPlayer.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/failPlayer.cpp.s
+.PHONY : Hash/failPlayer.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Stack_Queue/solution.o"
-	@echo "... Stack_Queue/solution.i"
-	@echo "... Stack_Queue/solution.s"
+	@echo "... Hash/failPlayer.o"
+	@echo "... Hash/failPlayer.i"
+	@echo "... Hash/failPlayer.s"
 .PHONY : help
 
 

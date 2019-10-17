@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Stack_Queue/solution.cpp.o"
+  "CMakeFiles/Programmers.dir/Hash/failPlayer.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )

@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers Stack_Queue/solution.cpp)
+add_executable(Programmers Hash/failPlayer.cpp)
