@@ -3,4 +3,4 @@ project(Kakao)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Kakao 1차/프렌즈4블.cpp)
+add_executable(Kakao 1차/셔틀버스.cpp)
