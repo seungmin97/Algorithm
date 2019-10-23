@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Kakao/1차/셔틀버스.cpp
+/Users/leeseungmin/Desktop/Algorithm/Kakao/2017_예선/카카오프렌즈_컬러링북.cpp
 iostream
 -
 vector
--
-algorithm
 -
 

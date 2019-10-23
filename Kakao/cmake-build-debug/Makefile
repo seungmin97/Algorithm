@@ -123,32 +123,32 @@ Kakao/fast:
 	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/build
 .PHONY : Kakao/fast
 
-1차/셔틀버스.o: 1차/셔틀버스.cpp.o
+2017_예선/카카오프렌즈_컬러링북.o: 2017_예선/카카오프렌즈_컬러링북.cpp.o
 
-.PHONY : 1차/셔틀버스.o
+.PHONY : 2017_예선/카카오프렌즈_컬러링북.o
 
 # target to build an object file
-1차/셔틀버스.cpp.o:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/셔틀버스.cpp.o
-.PHONY : 1차/셔틀버스.cpp.o
+2017_예선/카카오프렌즈_컬러링북.cpp.o:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2017_예선/카카오프렌즈_컬러링북.cpp.o
+.PHONY : 2017_예선/카카오프렌즈_컬러링북.cpp.o
 
-1차/셔틀버스.i: 1차/셔틀버스.cpp.i
+2017_예선/카카오프렌즈_컬러링북.i: 2017_예선/카카오프렌즈_컬러링북.cpp.i
 
-.PHONY : 1차/셔틀버스.i
+.PHONY : 2017_예선/카카오프렌즈_컬러링북.i
 
 # target to preprocess a source file
-1차/셔틀버스.cpp.i:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/셔틀버스.cpp.i
-.PHONY : 1차/셔틀버스.cpp.i
+2017_예선/카카오프렌즈_컬러링북.cpp.i:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2017_예선/카카오프렌즈_컬러링북.cpp.i
+.PHONY : 2017_예선/카카오프렌즈_컬러링북.cpp.i
 
-1차/셔틀버스.s: 1차/셔틀버스.cpp.s
+2017_예선/카카오프렌즈_컬러링북.s: 2017_예선/카카오프렌즈_컬러링북.cpp.s
 
-.PHONY : 1차/셔틀버스.s
+.PHONY : 2017_예선/카카오프렌즈_컬러링북.s
 
 # target to generate assembly for a file
-1차/셔틀버스.cpp.s:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/1차/셔틀버스.cpp.s
-.PHONY : 1차/셔틀버스.cpp.s
+2017_예선/카카오프렌즈_컬러링북.cpp.s:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2017_예선/카카오프렌즈_컬러링북.cpp.s
+.PHONY : 2017_예선/카카오프렌즈_컬러링북.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Kakao"
-	@echo "... 1차/셔틀버스.o"
-	@echo "... 1차/셔틀버스.i"
-	@echo "... 1차/셔틀버스.s"
+	@echo "... 2017_예선/카카오프렌즈_컬러링북.o"
+	@echo "... 2017_예선/카카오프렌즈_컬러링북.i"
+	@echo "... 2017_예선/카카오프렌즈_컬러링북.s"
 .PHONY : help
 
 
