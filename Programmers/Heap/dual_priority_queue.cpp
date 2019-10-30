@@ -53,7 +53,7 @@ vector<int> solution(vector<string> operations) {
             q.push(num);
         }
         else {
-            if(q.size() >= 2){      //이게 문제
+            if(q.size() > 0){      //이게 문제
                 if (num < 0) {
                     q = change(q);
                 }
