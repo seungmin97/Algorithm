@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Heap/ramen.o: Heap/ramen.cpp.o
+Sort/h_index.o: Sort/h_index.cpp.o
 
-.PHONY : Heap/ramen.o
+.PHONY : Sort/h_index.o
 
 # target to build an object file
-Heap/ramen.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Heap/ramen.cpp.o
-.PHONY : Heap/ramen.cpp.o
+Sort/h_index.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/h_index.cpp.o
+.PHONY : Sort/h_index.cpp.o
 
-Heap/ramen.i: Heap/ramen.cpp.i
+Sort/h_index.i: Sort/h_index.cpp.i
 
-.PHONY : Heap/ramen.i
+.PHONY : Sort/h_index.i
 
 # target to preprocess a source file
-Heap/ramen.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Heap/ramen.cpp.i
-.PHONY : Heap/ramen.cpp.i
+Sort/h_index.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/h_index.cpp.i
+.PHONY : Sort/h_index.cpp.i
 
-Heap/ramen.s: Heap/ramen.cpp.s
+Sort/h_index.s: Sort/h_index.cpp.s
 
-.PHONY : Heap/ramen.s
+.PHONY : Sort/h_index.s
 
 # target to generate assembly for a file
-Heap/ramen.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Heap/ramen.cpp.s
-.PHONY : Heap/ramen.cpp.s
+Sort/h_index.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/h_index.cpp.s
+.PHONY : Sort/h_index.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Heap/ramen.o"
-	@echo "... Heap/ramen.i"
-	@echo "... Heap/ramen.s"
+	@echo "... Sort/h_index.o"
+	@echo "... Sort/h_index.i"
+	@echo "... Sort/h_index.s"
 .PHONY : help
 
 
