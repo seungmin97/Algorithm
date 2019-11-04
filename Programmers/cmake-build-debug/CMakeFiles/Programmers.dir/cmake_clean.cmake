@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Sort/h_index.cpp.o"
+  "CMakeFiles/Programmers.dir/Sort/most.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )

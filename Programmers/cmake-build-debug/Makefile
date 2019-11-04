@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Sort/h_index.o: Sort/h_index.cpp.o
+Sort/most.o: Sort/most.cpp.o
 
-.PHONY : Sort/h_index.o
+.PHONY : Sort/most.o
 
 # target to build an object file
-Sort/h_index.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/h_index.cpp.o
-.PHONY : Sort/h_index.cpp.o
+Sort/most.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/most.cpp.o
+.PHONY : Sort/most.cpp.o
 
-Sort/h_index.i: Sort/h_index.cpp.i
+Sort/most.i: Sort/most.cpp.i
 
-.PHONY : Sort/h_index.i
+.PHONY : Sort/most.i
 
 # target to preprocess a source file
-Sort/h_index.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/h_index.cpp.i
-.PHONY : Sort/h_index.cpp.i
+Sort/most.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/most.cpp.i
+.PHONY : Sort/most.cpp.i
 
-Sort/h_index.s: Sort/h_index.cpp.s
+Sort/most.s: Sort/most.cpp.s
 
-.PHONY : Sort/h_index.s
+.PHONY : Sort/most.s
 
 # target to generate assembly for a file
-Sort/h_index.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/h_index.cpp.s
-.PHONY : Sort/h_index.cpp.s
+Sort/most.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/most.cpp.s
+.PHONY : Sort/most.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Sort/h_index.o"
-	@echo "... Sort/h_index.i"
-	@echo "... Sort/h_index.s"
+	@echo "... Sort/most.o"
+	@echo "... Sort/most.i"
+	@echo "... Sort/most.s"
 .PHONY : help
 
 
