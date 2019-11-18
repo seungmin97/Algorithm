@@ -57,27 +57,27 @@ include CMakeFiles/Programmers.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Programmers.dir/flags.make
 
-CMakeFiles/Programmers.dir/Sort/most.cpp.o: CMakeFiles/Programmers.dir/flags.make
-CMakeFiles/Programmers.dir/Sort/most.cpp.o: ../Sort/most.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungmin/Desktop/Algorithm/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Programmers.dir/Sort/most.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Programmers.dir/Sort/most.cpp.o -c /Users/leeseungmin/Desktop/Algorithm/Programmers/Sort/most.cpp
+CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.o: CMakeFiles/Programmers.dir/flags.make
+CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.o: ../Greedy/Life_Jacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungmin/Desktop/Algorithm/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.o -c /Users/leeseungmin/Desktop/Algorithm/Programmers/Greedy/Life_Jacket.cpp
 
-CMakeFiles/Programmers.dir/Sort/most.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Programmers.dir/Sort/most.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leeseungmin/Desktop/Algorithm/Programmers/Sort/most.cpp > CMakeFiles/Programmers.dir/Sort/most.cpp.i
+CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leeseungmin/Desktop/Algorithm/Programmers/Greedy/Life_Jacket.cpp > CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.i
 
-CMakeFiles/Programmers.dir/Sort/most.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Programmers.dir/Sort/most.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leeseungmin/Desktop/Algorithm/Programmers/Sort/most.cpp -o CMakeFiles/Programmers.dir/Sort/most.cpp.s
+CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leeseungmin/Desktop/Algorithm/Programmers/Greedy/Life_Jacket.cpp -o CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.s
 
 # Object files for target Programmers
 Programmers_OBJECTS = \
-"CMakeFiles/Programmers.dir/Sort/most.cpp.o"
+"CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.o"
 
 # External object files for target Programmers
 Programmers_EXTERNAL_OBJECTS =
 
-Programmers: CMakeFiles/Programmers.dir/Sort/most.cpp.o
+Programmers: CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.o
 Programmers: CMakeFiles/Programmers.dir/build.make
 Programmers: CMakeFiles/Programmers.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/leeseungmin/Desktop/Algorithm/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Programmers"

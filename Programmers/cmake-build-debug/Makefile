@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Sort/most.o: Sort/most.cpp.o
+Greedy/Life_Jacket.o: Greedy/Life_Jacket.cpp.o
 
-.PHONY : Sort/most.o
+.PHONY : Greedy/Life_Jacket.o
 
 # target to build an object file
-Sort/most.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/most.cpp.o
-.PHONY : Sort/most.cpp.o
+Greedy/Life_Jacket.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.o
+.PHONY : Greedy/Life_Jacket.cpp.o
 
-Sort/most.i: Sort/most.cpp.i
+Greedy/Life_Jacket.i: Greedy/Life_Jacket.cpp.i
 
-.PHONY : Sort/most.i
+.PHONY : Greedy/Life_Jacket.i
 
 # target to preprocess a source file
-Sort/most.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/most.cpp.i
-.PHONY : Sort/most.cpp.i
+Greedy/Life_Jacket.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.i
+.PHONY : Greedy/Life_Jacket.cpp.i
 
-Sort/most.s: Sort/most.cpp.s
+Greedy/Life_Jacket.s: Greedy/Life_Jacket.cpp.s
 
-.PHONY : Sort/most.s
+.PHONY : Greedy/Life_Jacket.s
 
 # target to generate assembly for a file
-Sort/most.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/most.cpp.s
-.PHONY : Sort/most.cpp.s
+Greedy/Life_Jacket.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.s
+.PHONY : Greedy/Life_Jacket.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Sort/most.o"
-	@echo "... Sort/most.i"
-	@echo "... Sort/most.s"
+	@echo "... Greedy/Life_Jacket.o"
+	@echo "... Greedy/Life_Jacket.i"
+	@echo "... Greedy/Life_Jacket.s"
 .PHONY : help
 
 

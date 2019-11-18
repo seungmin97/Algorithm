@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Sort/most.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Greedy/Life_Jacket.cpp
 iostream
 -
 string
@@ -14,5 +14,7 @@ string
 vector
 -
 algorithm
+-
+functional
 -
 
