@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers Greedy/Life_Jacket.cpp)
+add_executable(Programmers Greedy/GymSuit.cpp)

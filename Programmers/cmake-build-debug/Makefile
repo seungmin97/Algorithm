@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Greedy/Life_Jacket.o: Greedy/Life_Jacket.cpp.o
+Greedy/GymSuit.o: Greedy/GymSuit.cpp.o
 
-.PHONY : Greedy/Life_Jacket.o
+.PHONY : Greedy/GymSuit.o
 
 # target to build an object file
-Greedy/Life_Jacket.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.o
-.PHONY : Greedy/Life_Jacket.cpp.o
+Greedy/GymSuit.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/GymSuit.cpp.o
+.PHONY : Greedy/GymSuit.cpp.o
 
-Greedy/Life_Jacket.i: Greedy/Life_Jacket.cpp.i
+Greedy/GymSuit.i: Greedy/GymSuit.cpp.i
 
-.PHONY : Greedy/Life_Jacket.i
+.PHONY : Greedy/GymSuit.i
 
 # target to preprocess a source file
-Greedy/Life_Jacket.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.i
-.PHONY : Greedy/Life_Jacket.cpp.i
+Greedy/GymSuit.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/GymSuit.cpp.i
+.PHONY : Greedy/GymSuit.cpp.i
 
-Greedy/Life_Jacket.s: Greedy/Life_Jacket.cpp.s
+Greedy/GymSuit.s: Greedy/GymSuit.cpp.s
 
-.PHONY : Greedy/Life_Jacket.s
+.PHONY : Greedy/GymSuit.s
 
 # target to generate assembly for a file
-Greedy/Life_Jacket.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Life_Jacket.cpp.s
-.PHONY : Greedy/Life_Jacket.cpp.s
+Greedy/GymSuit.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/GymSuit.cpp.s
+.PHONY : Greedy/GymSuit.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Greedy/Life_Jacket.o"
-	@echo "... Greedy/Life_Jacket.i"
-	@echo "... Greedy/Life_Jacket.s"
+	@echo "... Greedy/GymSuit.o"
+	@echo "... Greedy/GymSuit.i"
+	@echo "... Greedy/GymSuit.s"
 .PHONY : help
 
 

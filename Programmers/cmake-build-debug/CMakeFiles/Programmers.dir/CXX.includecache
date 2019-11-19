@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Greedy/Life_Jacket.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Greedy/GymSuit.cpp
 iostream
 -
 string
 -
 vector
--
-algorithm
--
-functional
 -
 
