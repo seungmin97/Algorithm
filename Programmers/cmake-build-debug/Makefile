@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Greedy/GymSuit.o: Greedy/GymSuit.cpp.o
+Greedy/Make_Largest_Num.o: Greedy/Make_Largest_Num.cpp.o
 
-.PHONY : Greedy/GymSuit.o
+.PHONY : Greedy/Make_Largest_Num.o
 
 # target to build an object file
-Greedy/GymSuit.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/GymSuit.cpp.o
-.PHONY : Greedy/GymSuit.cpp.o
+Greedy/Make_Largest_Num.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Make_Largest_Num.cpp.o
+.PHONY : Greedy/Make_Largest_Num.cpp.o
 
-Greedy/GymSuit.i: Greedy/GymSuit.cpp.i
+Greedy/Make_Largest_Num.i: Greedy/Make_Largest_Num.cpp.i
 
-.PHONY : Greedy/GymSuit.i
+.PHONY : Greedy/Make_Largest_Num.i
 
 # target to preprocess a source file
-Greedy/GymSuit.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/GymSuit.cpp.i
-.PHONY : Greedy/GymSuit.cpp.i
+Greedy/Make_Largest_Num.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Make_Largest_Num.cpp.i
+.PHONY : Greedy/Make_Largest_Num.cpp.i
 
-Greedy/GymSuit.s: Greedy/GymSuit.cpp.s
+Greedy/Make_Largest_Num.s: Greedy/Make_Largest_Num.cpp.s
 
-.PHONY : Greedy/GymSuit.s
+.PHONY : Greedy/Make_Largest_Num.s
 
 # target to generate assembly for a file
-Greedy/GymSuit.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/GymSuit.cpp.s
-.PHONY : Greedy/GymSuit.cpp.s
+Greedy/Make_Largest_Num.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Make_Largest_Num.cpp.s
+.PHONY : Greedy/Make_Largest_Num.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Greedy/GymSuit.o"
-	@echo "... Greedy/GymSuit.i"
-	@echo "... Greedy/GymSuit.s"
+	@echo "... Greedy/Make_Largest_Num.o"
+	@echo "... Greedy/Make_Largest_Num.i"
+	@echo "... Greedy/Make_Largest_Num.s"
 .PHONY : help
 
 

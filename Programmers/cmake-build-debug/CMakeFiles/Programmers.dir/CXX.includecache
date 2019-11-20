@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Greedy/GymSuit.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Greedy/Make_Largest_Num.cpp
 iostream
 -
 string
 -
-algorithm
--
 vector
 -
-cstring
+algorithm
+-
+cstdlib
 -
 
