@@ -11,6 +11,10 @@ iostream
 -
 string
 -
+algorithm
+-
 vector
+-
+cstring
 -
 
