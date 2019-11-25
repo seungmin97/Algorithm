@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Greedy/Make_Largest_Num.cpp.o"
+  "CMakeFiles/Programmers.dir/Greedy/Camera.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )

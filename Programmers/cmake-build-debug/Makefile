@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Greedy/Make_Largest_Num.o: Greedy/Make_Largest_Num.cpp.o
+Greedy/Camera.o: Greedy/Camera.cpp.o
 
-.PHONY : Greedy/Make_Largest_Num.o
+.PHONY : Greedy/Camera.o
 
 # target to build an object file
-Greedy/Make_Largest_Num.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Make_Largest_Num.cpp.o
-.PHONY : Greedy/Make_Largest_Num.cpp.o
+Greedy/Camera.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Camera.cpp.o
+.PHONY : Greedy/Camera.cpp.o
 
-Greedy/Make_Largest_Num.i: Greedy/Make_Largest_Num.cpp.i
+Greedy/Camera.i: Greedy/Camera.cpp.i
 
-.PHONY : Greedy/Make_Largest_Num.i
+.PHONY : Greedy/Camera.i
 
 # target to preprocess a source file
-Greedy/Make_Largest_Num.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Make_Largest_Num.cpp.i
-.PHONY : Greedy/Make_Largest_Num.cpp.i
+Greedy/Camera.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Camera.cpp.i
+.PHONY : Greedy/Camera.cpp.i
 
-Greedy/Make_Largest_Num.s: Greedy/Make_Largest_Num.cpp.s
+Greedy/Camera.s: Greedy/Camera.cpp.s
 
-.PHONY : Greedy/Make_Largest_Num.s
+.PHONY : Greedy/Camera.s
 
 # target to generate assembly for a file
-Greedy/Make_Largest_Num.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Make_Largest_Num.cpp.s
-.PHONY : Greedy/Make_Largest_Num.cpp.s
+Greedy/Camera.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Camera.cpp.s
+.PHONY : Greedy/Camera.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Greedy/Make_Largest_Num.o"
-	@echo "... Greedy/Make_Largest_Num.i"
-	@echo "... Greedy/Make_Largest_Num.s"
+	@echo "... Greedy/Camera.o"
+	@echo "... Greedy/Camera.i"
+	@echo "... Greedy/Camera.s"
 .PHONY : help
 
 

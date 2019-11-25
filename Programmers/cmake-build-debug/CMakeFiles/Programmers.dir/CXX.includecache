@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Greedy/Make_Largest_Num.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Greedy/Camera.cpp
 iostream
 -
 string
@@ -14,7 +14,5 @@ string
 vector
 -
 algorithm
--
-cstdlib
 -
 
