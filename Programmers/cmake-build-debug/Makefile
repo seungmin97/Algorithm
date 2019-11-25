@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Greedy/Camera.o: Greedy/Camera.cpp.o
+Greedy/Joy_Stick.o: Greedy/Joy_Stick.cpp.o
 
-.PHONY : Greedy/Camera.o
+.PHONY : Greedy/Joy_Stick.o
 
 # target to build an object file
-Greedy/Camera.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Camera.cpp.o
-.PHONY : Greedy/Camera.cpp.o
+Greedy/Joy_Stick.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Joy_Stick.cpp.o
+.PHONY : Greedy/Joy_Stick.cpp.o
 
-Greedy/Camera.i: Greedy/Camera.cpp.i
+Greedy/Joy_Stick.i: Greedy/Joy_Stick.cpp.i
 
-.PHONY : Greedy/Camera.i
+.PHONY : Greedy/Joy_Stick.i
 
 # target to preprocess a source file
-Greedy/Camera.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Camera.cpp.i
-.PHONY : Greedy/Camera.cpp.i
+Greedy/Joy_Stick.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Joy_Stick.cpp.i
+.PHONY : Greedy/Joy_Stick.cpp.i
 
-Greedy/Camera.s: Greedy/Camera.cpp.s
+Greedy/Joy_Stick.s: Greedy/Joy_Stick.cpp.s
 
-.PHONY : Greedy/Camera.s
+.PHONY : Greedy/Joy_Stick.s
 
 # target to generate assembly for a file
-Greedy/Camera.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Camera.cpp.s
-.PHONY : Greedy/Camera.cpp.s
+Greedy/Joy_Stick.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Joy_Stick.cpp.s
+.PHONY : Greedy/Joy_Stick.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Greedy/Camera.o"
-	@echo "... Greedy/Camera.i"
-	@echo "... Greedy/Camera.s"
+	@echo "... Greedy/Joy_Stick.o"
+	@echo "... Greedy/Joy_Stick.i"
+	@echo "... Greedy/Joy_Stick.s"
 .PHONY : help
 
 

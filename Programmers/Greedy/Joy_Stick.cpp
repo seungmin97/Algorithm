@@ -21,15 +21,17 @@ void calculate(char temp){
 
 int find(vector <int> check, int index, int length){
 
+    int left = index;
+
     for (int i = 1; i < length; ++i) {
 
         int right = (index + i) % length;
-        int left;
-        if(index == 0){
+
+        if(left == 0){
             left = length - 1;
         }
         else{
-            left = index - 1;
+            left = left - 1;
         }
 
         if(check[right] * check[left] == 1){
@@ -65,6 +67,10 @@ int solution(string name){
         }
     }
 
+    if(name[0] == 'A'){
+        index = find(check, index, length);
+    }
+
     while(count != length){
         count++;
         check[index] = 1;
@@ -81,5 +87,6 @@ int main(){
     //cout << solution("JEROEN");
     //cout << solution("JAN");
     cout << solution("CANAAAAANAN");
+    //cout << solution("AZAAAZ");
     return 0;
 }

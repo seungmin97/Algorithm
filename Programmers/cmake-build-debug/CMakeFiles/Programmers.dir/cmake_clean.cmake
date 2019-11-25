@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Greedy/Camera.cpp.o"
+  "CMakeFiles/Programmers.dir/Greedy/Joy_Stick.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )
