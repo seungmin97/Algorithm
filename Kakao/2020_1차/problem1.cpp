@@ -8,6 +8,23 @@ using namespace std;
 
 int change(string s, int i){
 
+    string temp = s.substr(0,i);
+    int count = 1;
+    int start = 0;
+    for (int j = 0 + i; j < s.length(); j++) {
+        string next = s.substr(j, i);
+
+        if(next == temp){
+            count++;
+
+            j = j + i;
+        }
+        else{
+
+            temp = next;
+        }
+
+    }
     
 }
 
@@ -24,11 +41,11 @@ int solution(string s){
 
 int main(){
 
-    cout << solution("aabbaccc");
-    cout << solution("ababcdcdababcdcd");
-    cout << solution("abcabcdede");
-    cout << solution("abcabcabcabcdededededede");
-    cout << solution("xababcdcdababcdcd")
+     cout << solution("aabbaccc") << endl;
+    cout << solution("ababcdcdababcdcd") << endl;
+    cout << solution("abcabcdede") << endl;
+    cout << solution("abcabcabcabcdededededede") << endl;
+    cout << solution("xababcdcdababcdcd") << endl;
 
     //7 9 8 14 17
     return 0;
