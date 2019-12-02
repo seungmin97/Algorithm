@@ -3,4 +3,4 @@ project(Kakao)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Kakao 2019_겨울인턴/problem2.cpp)
+add_executable(Kakao 2019_겨울인턴/problem3.cpp)

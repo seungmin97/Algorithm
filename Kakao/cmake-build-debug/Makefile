@@ -123,32 +123,32 @@ Kakao/fast:
 	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/build
 .PHONY : Kakao/fast
 
-2019_겨울인턴/problem2.o: 2019_겨울인턴/problem2.cpp.o
+2019_겨울인턴/problem3.o: 2019_겨울인턴/problem3.cpp.o
 
-.PHONY : 2019_겨울인턴/problem2.o
+.PHONY : 2019_겨울인턴/problem3.o
 
 # target to build an object file
-2019_겨울인턴/problem2.cpp.o:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/problem2.cpp.o
-.PHONY : 2019_겨울인턴/problem2.cpp.o
+2019_겨울인턴/problem3.cpp.o:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/problem3.cpp.o
+.PHONY : 2019_겨울인턴/problem3.cpp.o
 
-2019_겨울인턴/problem2.i: 2019_겨울인턴/problem2.cpp.i
+2019_겨울인턴/problem3.i: 2019_겨울인턴/problem3.cpp.i
 
-.PHONY : 2019_겨울인턴/problem2.i
+.PHONY : 2019_겨울인턴/problem3.i
 
 # target to preprocess a source file
-2019_겨울인턴/problem2.cpp.i:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/problem2.cpp.i
-.PHONY : 2019_겨울인턴/problem2.cpp.i
+2019_겨울인턴/problem3.cpp.i:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/problem3.cpp.i
+.PHONY : 2019_겨울인턴/problem3.cpp.i
 
-2019_겨울인턴/problem2.s: 2019_겨울인턴/problem2.cpp.s
+2019_겨울인턴/problem3.s: 2019_겨울인턴/problem3.cpp.s
 
-.PHONY : 2019_겨울인턴/problem2.s
+.PHONY : 2019_겨울인턴/problem3.s
 
 # target to generate assembly for a file
-2019_겨울인턴/problem2.cpp.s:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/problem2.cpp.s
-.PHONY : 2019_겨울인턴/problem2.cpp.s
+2019_겨울인턴/problem3.cpp.s:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/problem3.cpp.s
+.PHONY : 2019_겨울인턴/problem3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Kakao"
-	@echo "... 2019_겨울인턴/problem2.o"
-	@echo "... 2019_겨울인턴/problem2.i"
-	@echo "... 2019_겨울인턴/problem2.s"
+	@echo "... 2019_겨울인턴/problem3.o"
+	@echo "... 2019_겨울인턴/problem3.i"
+	@echo "... 2019_겨울인턴/problem3.s"
 .PHONY : help
 
 

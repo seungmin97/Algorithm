@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Greedy/Joy_Stick.o: Greedy/Joy_Stick.cpp.o
+DP/Tile.o: DP/Tile.cpp.o
 
-.PHONY : Greedy/Joy_Stick.o
+.PHONY : DP/Tile.o
 
 # target to build an object file
-Greedy/Joy_Stick.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Joy_Stick.cpp.o
-.PHONY : Greedy/Joy_Stick.cpp.o
+DP/Tile.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/DP/Tile.cpp.o
+.PHONY : DP/Tile.cpp.o
 
-Greedy/Joy_Stick.i: Greedy/Joy_Stick.cpp.i
+DP/Tile.i: DP/Tile.cpp.i
 
-.PHONY : Greedy/Joy_Stick.i
+.PHONY : DP/Tile.i
 
 # target to preprocess a source file
-Greedy/Joy_Stick.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Joy_Stick.cpp.i
-.PHONY : Greedy/Joy_Stick.cpp.i
+DP/Tile.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/DP/Tile.cpp.i
+.PHONY : DP/Tile.cpp.i
 
-Greedy/Joy_Stick.s: Greedy/Joy_Stick.cpp.s
+DP/Tile.s: DP/Tile.cpp.s
 
-.PHONY : Greedy/Joy_Stick.s
+.PHONY : DP/Tile.s
 
 # target to generate assembly for a file
-Greedy/Joy_Stick.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Greedy/Joy_Stick.cpp.s
-.PHONY : Greedy/Joy_Stick.cpp.s
+DP/Tile.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/DP/Tile.cpp.s
+.PHONY : DP/Tile.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Greedy/Joy_Stick.o"
-	@echo "... Greedy/Joy_Stick.i"
-	@echo "... Greedy/Joy_Stick.s"
+	@echo "... DP/Tile.o"
+	@echo "... DP/Tile.i"
+	@echo "... DP/Tile.s"
 .PHONY : help
 
 

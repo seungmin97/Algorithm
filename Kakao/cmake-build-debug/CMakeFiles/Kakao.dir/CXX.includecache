@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Kakao/2019_겨울인턴/problem2.cpp
+/Users/leeseungmin/Desktop/Algorithm/Kakao/2019_겨울인턴/problem3.cpp
 iostream
 -
-algorithm
--
 vector
+-
+string
 -
 
