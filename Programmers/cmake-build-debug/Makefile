@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-DP/Tile.o: DP/Tile.cpp.o
+DP/School.o: DP/School.cpp.o
 
-.PHONY : DP/Tile.o
+.PHONY : DP/School.o
 
 # target to build an object file
-DP/Tile.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/DP/Tile.cpp.o
-.PHONY : DP/Tile.cpp.o
+DP/School.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/DP/School.cpp.o
+.PHONY : DP/School.cpp.o
 
-DP/Tile.i: DP/Tile.cpp.i
+DP/School.i: DP/School.cpp.i
 
-.PHONY : DP/Tile.i
+.PHONY : DP/School.i
 
 # target to preprocess a source file
-DP/Tile.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/DP/Tile.cpp.i
-.PHONY : DP/Tile.cpp.i
+DP/School.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/DP/School.cpp.i
+.PHONY : DP/School.cpp.i
 
-DP/Tile.s: DP/Tile.cpp.s
+DP/School.s: DP/School.cpp.s
 
-.PHONY : DP/Tile.s
+.PHONY : DP/School.s
 
 # target to generate assembly for a file
-DP/Tile.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/DP/Tile.cpp.s
-.PHONY : DP/Tile.cpp.s
+DP/School.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/DP/School.cpp.s
+.PHONY : DP/School.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... DP/Tile.o"
-	@echo "... DP/Tile.i"
-	@echo "... DP/Tile.s"
+	@echo "... DP/School.o"
+	@echo "... DP/School.i"
+	@echo "... DP/School.s"
 .PHONY : help
 
 

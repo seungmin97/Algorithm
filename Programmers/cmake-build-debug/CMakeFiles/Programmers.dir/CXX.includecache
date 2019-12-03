@@ -6,10 +6,16 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/DP/Tile.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/DP/School.cpp
 iostream
 -
 string
+-
+vector
+-
+string.h
+-
+string.h
 -
 vector
 -
