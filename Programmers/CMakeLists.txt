@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers DP/School.cpp)
+add_executable(Programmers DP/Thief.cpp)

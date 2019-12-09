@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/DP/School.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/DP/Thief.cpp
 iostream
 -
 string
 -
 vector
 -
-string.h
--
-string.h
--
-vector
+algorithm
 -
 
