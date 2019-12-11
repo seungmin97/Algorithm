@@ -15,7 +15,6 @@ int check(vector<int> money, int index){
     result = money[index];
     vector<int> sum;
     sum.push_back(money[index]);
-    int count = 0;
 
     while(1) {
         int size = temp.size();
@@ -43,7 +42,6 @@ int check(vector<int> money, int index){
     }
 
 }
-
 
 int solution(vector<int> money) {
     int answer = 0;
