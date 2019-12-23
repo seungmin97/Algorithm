@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/DP/Thief.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/different_number.cpp
 iostream
--
-string
 -
 vector
 -
-algorithm
+iostream
 -
 
