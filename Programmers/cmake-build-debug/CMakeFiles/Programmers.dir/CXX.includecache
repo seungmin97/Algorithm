@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/kim.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/password.cpp
 iostream
 -
 string
 -
 vector
--
-string.h
 -
 

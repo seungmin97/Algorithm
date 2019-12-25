@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Level1/kim.o: Level1/kim.cpp.o
+Level1/password.o: Level1/password.cpp.o
 
-.PHONY : Level1/kim.o
+.PHONY : Level1/password.o
 
 # target to build an object file
-Level1/kim.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level1/kim.cpp.o
-.PHONY : Level1/kim.cpp.o
+Level1/password.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level1/password.cpp.o
+.PHONY : Level1/password.cpp.o
 
-Level1/kim.i: Level1/kim.cpp.i
+Level1/password.i: Level1/password.cpp.i
 
-.PHONY : Level1/kim.i
+.PHONY : Level1/password.i
 
 # target to preprocess a source file
-Level1/kim.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level1/kim.cpp.i
-.PHONY : Level1/kim.cpp.i
+Level1/password.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level1/password.cpp.i
+.PHONY : Level1/password.cpp.i
 
-Level1/kim.s: Level1/kim.cpp.s
+Level1/password.s: Level1/password.cpp.s
 
-.PHONY : Level1/kim.s
+.PHONY : Level1/password.s
 
 # target to generate assembly for a file
-Level1/kim.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level1/kim.cpp.s
-.PHONY : Level1/kim.cpp.s
+Level1/password.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level1/password.cpp.s
+.PHONY : Level1/password.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Level1/kim.o"
-	@echo "... Level1/kim.i"
-	@echo "... Level1/kim.s"
+	@echo "... Level1/password.o"
+	@echo "... Level1/password.i"
+	@echo "... Level1/password.s"
 .PHONY : help
 
 
