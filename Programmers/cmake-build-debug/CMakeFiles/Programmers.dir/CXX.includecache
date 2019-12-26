@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/prime_number.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/random_sort.cpp
 iostream
 -
 string
 -
-string.h
--
 vector
+-
+algorithm
 -
 

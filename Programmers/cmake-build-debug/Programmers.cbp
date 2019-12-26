@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/prime_number.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/random_sort.cpp">
 			<Option target="Programmers"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/CMakeLists.txt">
