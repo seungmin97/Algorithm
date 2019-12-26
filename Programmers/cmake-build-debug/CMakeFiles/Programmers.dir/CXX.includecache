@@ -6,10 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/password.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/prime_number.cpp
 iostream
 -
 string
+-
+string.h
 -
 vector
 -

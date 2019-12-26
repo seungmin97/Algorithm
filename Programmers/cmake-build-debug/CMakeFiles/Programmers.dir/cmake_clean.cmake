@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Level1/password.cpp.o"
+  "CMakeFiles/Programmers.dir/Level1/prime_number.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )

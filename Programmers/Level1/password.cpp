@@ -14,7 +14,14 @@ string solution(string s, int n) {
     int num;
 
     for (int i = 0; i < s.length(); ++i) {
-        temp = s[i] + n;
+        if(s[i] + n < 128){
+            temp = s[i] + n;
+        }
+        else{
+            int out = s[i] + n;
+            out -= 26 * ((out-122) / 26 + 1);
+            temp = out;
+        }
       if((s[i] >= 65) && (s[i] <= 90)){
           num = (temp - 90) / 26;
           if(temp > 90){
