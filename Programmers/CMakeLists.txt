@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers Level1/vector.cpp)
+add_executable(Programmers Level1/failure.cpp)

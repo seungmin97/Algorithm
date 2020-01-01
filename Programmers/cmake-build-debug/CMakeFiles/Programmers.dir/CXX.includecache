@@ -6,11 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/vector.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/failure.cpp
 iostream
 -
 string
 -
+string.h
+-
 vector
+-
+algorithm
 -
 
