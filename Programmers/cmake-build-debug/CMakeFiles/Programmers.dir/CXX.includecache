@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level1/failure.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/skilltree.cpp
 iostream
 -
 string
--
-string.h
 -
 vector
 -
