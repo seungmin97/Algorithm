@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Level2/open_chatting.cpp.o"
+  "CMakeFiles/Programmers.dir/Level2/news_clustering.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )

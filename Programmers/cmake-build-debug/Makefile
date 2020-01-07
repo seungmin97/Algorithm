@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Level2/open_chatting.o: Level2/open_chatting.cpp.o
+Level2/news_clustering.o: Level2/news_clustering.cpp.o
 
-.PHONY : Level2/open_chatting.o
+.PHONY : Level2/news_clustering.o
 
 # target to build an object file
-Level2/open_chatting.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/open_chatting.cpp.o
-.PHONY : Level2/open_chatting.cpp.o
+Level2/news_clustering.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/news_clustering.cpp.o
+.PHONY : Level2/news_clustering.cpp.o
 
-Level2/open_chatting.i: Level2/open_chatting.cpp.i
+Level2/news_clustering.i: Level2/news_clustering.cpp.i
 
-.PHONY : Level2/open_chatting.i
+.PHONY : Level2/news_clustering.i
 
 # target to preprocess a source file
-Level2/open_chatting.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/open_chatting.cpp.i
-.PHONY : Level2/open_chatting.cpp.i
+Level2/news_clustering.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/news_clustering.cpp.i
+.PHONY : Level2/news_clustering.cpp.i
 
-Level2/open_chatting.s: Level2/open_chatting.cpp.s
+Level2/news_clustering.s: Level2/news_clustering.cpp.s
 
-.PHONY : Level2/open_chatting.s
+.PHONY : Level2/news_clustering.s
 
 # target to generate assembly for a file
-Level2/open_chatting.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/open_chatting.cpp.s
-.PHONY : Level2/open_chatting.cpp.s
+Level2/news_clustering.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/news_clustering.cpp.s
+.PHONY : Level2/news_clustering.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Level2/open_chatting.o"
-	@echo "... Level2/open_chatting.i"
-	@echo "... Level2/open_chatting.s"
+	@echo "... Level2/news_clustering.o"
+	@echo "... Level2/news_clustering.i"
+	@echo "... Level2/news_clustering.s"
 .PHONY : help
 
 

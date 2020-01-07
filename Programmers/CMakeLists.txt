@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers Level2/open_chatting.cpp)
+add_executable(Programmers Level2/news_clustering.cpp)
