@@ -6,16 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/news_clustering.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/n_least_common_multiple.cpp
 iostream
 -
 string
 -
 vector
--
-cctype
--
-set
 -
 algorithm
 -

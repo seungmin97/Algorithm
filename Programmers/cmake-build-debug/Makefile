@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Level2/news_clustering.o: Level2/news_clustering.cpp.o
+Level2/n_least_common_multiple.o: Level2/n_least_common_multiple.cpp.o
 
-.PHONY : Level2/news_clustering.o
+.PHONY : Level2/n_least_common_multiple.o
 
 # target to build an object file
-Level2/news_clustering.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/news_clustering.cpp.o
-.PHONY : Level2/news_clustering.cpp.o
+Level2/n_least_common_multiple.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/n_least_common_multiple.cpp.o
+.PHONY : Level2/n_least_common_multiple.cpp.o
 
-Level2/news_clustering.i: Level2/news_clustering.cpp.i
+Level2/n_least_common_multiple.i: Level2/n_least_common_multiple.cpp.i
 
-.PHONY : Level2/news_clustering.i
+.PHONY : Level2/n_least_common_multiple.i
 
 # target to preprocess a source file
-Level2/news_clustering.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/news_clustering.cpp.i
-.PHONY : Level2/news_clustering.cpp.i
+Level2/n_least_common_multiple.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/n_least_common_multiple.cpp.i
+.PHONY : Level2/n_least_common_multiple.cpp.i
 
-Level2/news_clustering.s: Level2/news_clustering.cpp.s
+Level2/n_least_common_multiple.s: Level2/n_least_common_multiple.cpp.s
 
-.PHONY : Level2/news_clustering.s
+.PHONY : Level2/n_least_common_multiple.s
 
 # target to generate assembly for a file
-Level2/news_clustering.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/news_clustering.cpp.s
-.PHONY : Level2/news_clustering.cpp.s
+Level2/n_least_common_multiple.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/n_least_common_multiple.cpp.s
+.PHONY : Level2/n_least_common_multiple.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Level2/news_clustering.o"
-	@echo "... Level2/news_clustering.i"
-	@echo "... Level2/news_clustering.s"
+	@echo "... Level2/n_least_common_multiple.o"
+	@echo "... Level2/n_least_common_multiple.i"
+	@echo "... Level2/n_least_common_multiple.s"
 .PHONY : help
 
 
