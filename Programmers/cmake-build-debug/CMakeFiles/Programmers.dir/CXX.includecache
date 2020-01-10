@@ -6,10 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/n_least_common_multiple.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/make_small.cpp
 iostream
 -
-string
+iostream
 -
 vector
 -

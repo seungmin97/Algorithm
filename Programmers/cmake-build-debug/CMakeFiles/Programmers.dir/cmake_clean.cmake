@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Level2/n_least_common_multiple.cpp.o"
+  "CMakeFiles/Programmers.dir/Level2/make_small.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )
