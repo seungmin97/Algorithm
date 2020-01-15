@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Level2/make_small.o: Level2/make_small.cpp.o
+Level2/pocketmon.o: Level2/pocketmon.cpp.o
 
-.PHONY : Level2/make_small.o
+.PHONY : Level2/pocketmon.o
 
 # target to build an object file
-Level2/make_small.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/make_small.cpp.o
-.PHONY : Level2/make_small.cpp.o
+Level2/pocketmon.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/pocketmon.cpp.o
+.PHONY : Level2/pocketmon.cpp.o
 
-Level2/make_small.i: Level2/make_small.cpp.i
+Level2/pocketmon.i: Level2/pocketmon.cpp.i
 
-.PHONY : Level2/make_small.i
+.PHONY : Level2/pocketmon.i
 
 # target to preprocess a source file
-Level2/make_small.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/make_small.cpp.i
-.PHONY : Level2/make_small.cpp.i
+Level2/pocketmon.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/pocketmon.cpp.i
+.PHONY : Level2/pocketmon.cpp.i
 
-Level2/make_small.s: Level2/make_small.cpp.s
+Level2/pocketmon.s: Level2/pocketmon.cpp.s
 
-.PHONY : Level2/make_small.s
+.PHONY : Level2/pocketmon.s
 
 # target to generate assembly for a file
-Level2/make_small.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/make_small.cpp.s
-.PHONY : Level2/make_small.cpp.s
+Level2/pocketmon.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/pocketmon.cpp.s
+.PHONY : Level2/pocketmon.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Level2/make_small.o"
-	@echo "... Level2/make_small.i"
-	@echo "... Level2/make_small.s"
+	@echo "... Level2/pocketmon.o"
+	@echo "... Level2/pocketmon.i"
+	@echo "... Level2/pocketmon.s"
 .PHONY : help
 
 
