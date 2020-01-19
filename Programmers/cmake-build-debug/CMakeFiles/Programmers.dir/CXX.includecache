@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/pocketmon.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/draw.cpp
 iostream
 -
-vector
--
-algorithm
+math.h
 -
 
