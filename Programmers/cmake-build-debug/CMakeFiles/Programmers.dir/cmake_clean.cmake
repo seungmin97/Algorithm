@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Level2/filename_sort.cpp.o"
+  "CMakeFiles/Programmers.dir/Level2/check.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/filename_sort.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/check.cpp
 iostream
 -
-string
--
 vector
+-
+cstdlib
 -
 
