@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/check.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/double_erase.cpp
 iostream
 -
-vector
+stack
 -
-cstdlib
+string
 -
 

@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Level2/check.o: Level2/check.cpp.o
+Level2/double_erase.o: Level2/double_erase.cpp.o
 
-.PHONY : Level2/check.o
+.PHONY : Level2/double_erase.o
 
 # target to build an object file
-Level2/check.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/check.cpp.o
-.PHONY : Level2/check.cpp.o
+Level2/double_erase.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/double_erase.cpp.o
+.PHONY : Level2/double_erase.cpp.o
 
-Level2/check.i: Level2/check.cpp.i
+Level2/double_erase.i: Level2/double_erase.cpp.i
 
-.PHONY : Level2/check.i
+.PHONY : Level2/double_erase.i
 
 # target to preprocess a source file
-Level2/check.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/check.cpp.i
-.PHONY : Level2/check.cpp.i
+Level2/double_erase.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/double_erase.cpp.i
+.PHONY : Level2/double_erase.cpp.i
 
-Level2/check.s: Level2/check.cpp.s
+Level2/double_erase.s: Level2/double_erase.cpp.s
 
-.PHONY : Level2/check.s
+.PHONY : Level2/double_erase.s
 
 # target to generate assembly for a file
-Level2/check.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/check.cpp.s
-.PHONY : Level2/check.cpp.s
+Level2/double_erase.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/double_erase.cpp.s
+.PHONY : Level2/double_erase.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Level2/check.o"
-	@echo "... Level2/check.i"
-	@echo "... Level2/check.s"
+	@echo "... Level2/double_erase.o"
+	@echo "... Level2/double_erase.i"
+	@echo "... Level2/double_erase.s"
 .PHONY : help
 
 
