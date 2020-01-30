@@ -123,32 +123,32 @@ Baekjoon/fast:
 	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/build
 .PHONY : Baekjoon/fast
 
-Simulation/Snake.o: Simulation/Snake.cpp.o
+Heap/problem.o: Heap/problem.cpp.o
 
-.PHONY : Simulation/Snake.o
+.PHONY : Heap/problem.o
 
 # target to build an object file
-Simulation/Snake.cpp.o:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Snake.cpp.o
-.PHONY : Simulation/Snake.cpp.o
+Heap/problem.cpp.o:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Heap/problem.cpp.o
+.PHONY : Heap/problem.cpp.o
 
-Simulation/Snake.i: Simulation/Snake.cpp.i
+Heap/problem.i: Heap/problem.cpp.i
 
-.PHONY : Simulation/Snake.i
+.PHONY : Heap/problem.i
 
 # target to preprocess a source file
-Simulation/Snake.cpp.i:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Snake.cpp.i
-.PHONY : Simulation/Snake.cpp.i
+Heap/problem.cpp.i:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Heap/problem.cpp.i
+.PHONY : Heap/problem.cpp.i
 
-Simulation/Snake.s: Simulation/Snake.cpp.s
+Heap/problem.s: Heap/problem.cpp.s
 
-.PHONY : Simulation/Snake.s
+.PHONY : Heap/problem.s
 
 # target to generate assembly for a file
-Simulation/Snake.cpp.s:
-	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Simulation/Snake.cpp.s
-.PHONY : Simulation/Snake.cpp.s
+Heap/problem.cpp.s:
+	$(MAKE) -f CMakeFiles/Baekjoon.dir/build.make CMakeFiles/Baekjoon.dir/Heap/problem.cpp.s
+.PHONY : Heap/problem.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Baekjoon"
-	@echo "... Simulation/Snake.o"
-	@echo "... Simulation/Snake.i"
-	@echo "... Simulation/Snake.s"
+	@echo "... Heap/problem.o"
+	@echo "... Heap/problem.i"
+	@echo "... Heap/problem.s"
 .PHONY : help
 
 

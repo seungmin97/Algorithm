@@ -6,14 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/work_late.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Heap/spicy2.cpp
 iostream
 -
 string
 -
 vector
--
-algorithm
 -
 queue
 -

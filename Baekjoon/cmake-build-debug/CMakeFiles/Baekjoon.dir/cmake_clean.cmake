@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Baekjoon.dir/Simulation/Snake.cpp.o"
+  "CMakeFiles/Baekjoon.dir/Heap/problem.cpp.o"
   "Baekjoon.pdb"
   "Baekjoon"
 )

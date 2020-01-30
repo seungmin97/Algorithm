@@ -12,20 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="519f6954-cb12-44b7-a7ff-e858ca3facf0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Kakao/1차/뉴스클러스터링.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation/Snake.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation/Snake.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/1차/뉴스_클러스터링.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Kakao/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/cmake-build-debug/Kakao" beforeDir="false" afterPath="$PROJECT_DIR$/../Kakao/cmake-build-debug/Kakao" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/cmake-build-debug/Kakao.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Kakao/cmake-build-debug/Kakao.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Kakao/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Kakao/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Baekjoon.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Baekjoon.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Baekjoon.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,30 +39,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/구현/2007.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="22" selection-end-line="44" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/구현/Suger_Delivery.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#40#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String/Study_Word.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
+            <state relative-caret-position="405">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
@@ -85,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Simulation/Printer_Queue.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="315">
               <caret line="21" column="14" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
@@ -97,11 +74,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Simulation/Snake.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
+            <state relative-caret-position="480">
               <caret line="139" selection-start-line="139" selection-end-line="139" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -158,9 +144,10 @@
         <option value="$PROJECT_DIR$/구현/2007.cpp" />
         <option value="$PROJECT_DIR$/구현/Suger_Delivery.cpp" />
         <option value="$PROJECT_DIR$/Simulation/Printer_Queue.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/String/Study_Word.cpp" />
         <option value="$PROJECT_DIR$/Simulation/Snake.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Heap/problem.cpp" />
       </list>
     </option>
   </component>
@@ -180,16 +167,6 @@
             <path>
               <item name="Baekjoon" type="b2602c69:ProjectViewProjectNode" />
               <item name="Baekjoon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Baekjoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Baekjoon" type="462c0819:PsiDirectoryNode" />
-              <item name="Simulation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Baekjoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Baekjoon" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,16 +227,18 @@
       <workItem from="1570148751278" duration="1362000" />
       <workItem from="1570411032122" duration="16000" />
       <workItem from="1570715895875" duration="66000" />
+      <workItem from="1580379791733" duration="367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41675000" />
+    <option name="totallyTimeSpent" value="42042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30615166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3104435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,7 +249,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" order="8" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -467,13 +446,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BruteForce/Big.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -498,10 +470,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/String/Study_Word.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/String/Num_Of_Word.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simulation/Printer_Queue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -528,20 +520,17 @@
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/String/Study_Word.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simulation/Printer_Queue.cpp">
+    <entry file="file://$PROJECT_DIR$/Heap/problem.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="14" />
+        <state relative-caret-position="360">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
@@ -550,7 +539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Simulation/Snake.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
+        <state relative-caret-position="480">
           <caret line="139" selection-start-line="139" selection-end-line="139" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />

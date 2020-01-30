@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Simulation/Snake.cpp
+/Users/leeseungmin/Desktop/Algorithm/Baekjoon/Heap/problem.cpp
 iostream
--
-cstring
 -
 vector
 -

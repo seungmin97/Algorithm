@@ -3,4 +3,4 @@ project(Baekjoon)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Baekjoon Simulation/Snake.cpp)
+add_executable(Baekjoon Heap/problem.cpp)
