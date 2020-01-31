@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers Heap/spicy2.cpp)
+add_executable(Programmers Level3/jump_teleportation.cpp)

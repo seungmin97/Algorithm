@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Heap/spicy2.cpp.o"
+  "CMakeFiles/Programmers.dir/Level3/jump_teleportation.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )

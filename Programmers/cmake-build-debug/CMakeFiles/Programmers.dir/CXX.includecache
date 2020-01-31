@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Heap/spicy2.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/jump_teleportation.cpp
 iostream
 -
-string
--
-vector
--
-queue
+math.h
 -
 
