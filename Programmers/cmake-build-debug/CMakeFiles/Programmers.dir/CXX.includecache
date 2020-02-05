@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/visit_distance.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/number_game.cpp
 iostream
 -
 string
 -
-string.h
+vector
+-
+algorithm
+-
+stdlib.h
+-
+queue
 -
 

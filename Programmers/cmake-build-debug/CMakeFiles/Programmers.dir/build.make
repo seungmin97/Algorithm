@@ -57,27 +57,27 @@ include CMakeFiles/Programmers.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Programmers.dir/flags.make
 
-CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.o: CMakeFiles/Programmers.dir/flags.make
-CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.o: ../Level3/visit_distance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungmin/Desktop/Algorithm/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.o -c /Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/visit_distance.cpp
+CMakeFiles/Programmers.dir/Level3/number_game.cpp.o: CMakeFiles/Programmers.dir/flags.make
+CMakeFiles/Programmers.dir/Level3/number_game.cpp.o: ../Level3/number_game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leeseungmin/Desktop/Algorithm/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Programmers.dir/Level3/number_game.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Programmers.dir/Level3/number_game.cpp.o -c /Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/number_game.cpp
 
-CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/visit_distance.cpp > CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.i
+CMakeFiles/Programmers.dir/Level3/number_game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Programmers.dir/Level3/number_game.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/number_game.cpp > CMakeFiles/Programmers.dir/Level3/number_game.cpp.i
 
-CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/visit_distance.cpp -o CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.s
+CMakeFiles/Programmers.dir/Level3/number_game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Programmers.dir/Level3/number_game.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/number_game.cpp -o CMakeFiles/Programmers.dir/Level3/number_game.cpp.s
 
 # Object files for target Programmers
 Programmers_OBJECTS = \
-"CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.o"
+"CMakeFiles/Programmers.dir/Level3/number_game.cpp.o"
 
 # External object files for target Programmers
 Programmers_EXTERNAL_OBJECTS =
 
-Programmers: CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.o
+Programmers: CMakeFiles/Programmers.dir/Level3/number_game.cpp.o
 Programmers: CMakeFiles/Programmers.dir/build.make
 Programmers: CMakeFiles/Programmers.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/leeseungmin/Desktop/Algorithm/Programmers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Programmers"

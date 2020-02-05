@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Level3/visit_distance.o: Level3/visit_distance.cpp.o
+Level3/number_game.o: Level3/number_game.cpp.o
 
-.PHONY : Level3/visit_distance.o
+.PHONY : Level3/number_game.o
 
 # target to build an object file
-Level3/visit_distance.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.o
-.PHONY : Level3/visit_distance.cpp.o
+Level3/number_game.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/number_game.cpp.o
+.PHONY : Level3/number_game.cpp.o
 
-Level3/visit_distance.i: Level3/visit_distance.cpp.i
+Level3/number_game.i: Level3/number_game.cpp.i
 
-.PHONY : Level3/visit_distance.i
+.PHONY : Level3/number_game.i
 
 # target to preprocess a source file
-Level3/visit_distance.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.i
-.PHONY : Level3/visit_distance.cpp.i
+Level3/number_game.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/number_game.cpp.i
+.PHONY : Level3/number_game.cpp.i
 
-Level3/visit_distance.s: Level3/visit_distance.cpp.s
+Level3/number_game.s: Level3/number_game.cpp.s
 
-.PHONY : Level3/visit_distance.s
+.PHONY : Level3/number_game.s
 
 # target to generate assembly for a file
-Level3/visit_distance.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.s
-.PHONY : Level3/visit_distance.cpp.s
+Level3/number_game.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/number_game.cpp.s
+.PHONY : Level3/number_game.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Level3/visit_distance.o"
-	@echo "... Level3/visit_distance.i"
-	@echo "... Level3/visit_distance.s"
+	@echo "... Level3/number_game.o"
+	@echo "... Level3/number_game.i"
+	@echo "... Level3/number_game.s"
 .PHONY : help
 
 

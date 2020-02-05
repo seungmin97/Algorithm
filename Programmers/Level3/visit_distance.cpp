@@ -36,7 +36,6 @@ int solution(string dirs) {
                 answer++;
                 arr2[x][y-1] = 1;
             }
-
             y--;
         }
         else if(dirs[i] == 'L' && x > 0){
@@ -56,7 +55,6 @@ int solution(string dirs) {
         else{
             continue;
         }
-
     }
 
     return answer;

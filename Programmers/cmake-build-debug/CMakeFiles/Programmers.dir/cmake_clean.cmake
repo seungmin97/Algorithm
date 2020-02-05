@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Level3/visit_distance.cpp.o"
+  "CMakeFiles/Programmers.dir/Level3/number_game.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )
