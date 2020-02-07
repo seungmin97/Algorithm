@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/number_game.cpp" "/Users/leeseungmin/Desktop/Algorithm/Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/Level3/number_game.cpp.o"
+  "/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/well_square.cpp" "/Users/leeseungmin/Desktop/Algorithm/Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/Level3/well_square.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
