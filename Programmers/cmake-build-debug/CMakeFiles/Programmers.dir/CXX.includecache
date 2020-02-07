@@ -15,8 +15,6 @@ vector
 -
 algorithm
 -
-stdlib.h
--
-queue
+string.h
 -
 

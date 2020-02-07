@@ -17,9 +17,22 @@ int solution(vector<int> A, vector<int> B) {
     int *check = new int[B.size()];
     memset(check, 0, sizeof(int) * B.size());
 
+    sort(A.begin(), A.end());
+    sort(B.begin(), B.end());
+
+    int index = 0;
     for (int i = 0; i < A.size(); ++i) {
-       int difference = 1000000000;
-       int index = -1;
+        for (int j = index; j < B.size(); ++j) {
+            if(B[j] - A[i] > 0){
+                index = j + 1;
+                answer++;
+                break;
+            }
+        }
+    }
+
+
+   /* for (int i = 0; i < A.size(); ++i) {
        vector <pair<int,int>> p;
         for (int j = 0; j < B.size(); ++j) {
             int minus = B[j] - A[i];
@@ -41,7 +54,7 @@ int solution(vector<int> A, vector<int> B) {
         if(temp[i] != -1){
             answer++;
         }
-    }
+    }*/
 
     return answer;
 }
