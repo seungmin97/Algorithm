@@ -9,31 +9,23 @@
 
 using namespace std;
 
-int factorial(int n)
-{
-    return (n == 1 || n == 0) ? 1 : factorial(n - 1) * n;
-}
-
 int solution(int n) {
-    int answer = 1;
-    vector<int> v(n+1);
+    int answer = 0;
+    vector<long long> v;
 
-    v[0] = 0;
-    v[1] = 1;
-    v[2] = 2;
+    v.push_back(0);
+    v.push_back(1);
+    v.push_back(2);
 
     if(n < 3){
-        return v[n];
+        return v.at(n);
     }
 
-    int count = 1;
-
-    while(count <= (int)(n/2)){
-        int temp1 = n - 2 * count;
-        int temp2 = count;
-        answer += (factorial(temp1+temp2) / (factorial(temp1) * factorial(temp2)));
-        count++;
+    for (int i = 3; i <= n; ++i) {
+        v.push_back((v[i-1] + v[i-2]) % 1000000007);
     }
+
+    answer = v.at(n);
 
     return answer;
 }
@@ -46,9 +38,10 @@ int main(){
     cout << solution(6) << endl;
     cout << solution(28) << endl;*/
 
-    for (int i = 0; i < 100; ++i) {
-        cout << factorial(i) << endl;
+    for (int i = 0; i < 300; ++i) {
+        cout << solution(i) << endl;
     }
+
 
     return 0;
 }
