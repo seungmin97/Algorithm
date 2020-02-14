@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/2n_tile.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/땅따먹기.cpp
 iostream
 -
-string
--
-stdlib.h
--
 vector
+-
+algorithm
 -
 

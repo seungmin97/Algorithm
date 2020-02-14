@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Level3/2n_tile.o: Level3/2n_tile.cpp.o
+Level3/땅따먹기.o: Level3/땅따먹기.cpp.o
 
-.PHONY : Level3/2n_tile.o
+.PHONY : Level3/땅따먹기.o
 
 # target to build an object file
-Level3/2n_tile.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/2n_tile.cpp.o
-.PHONY : Level3/2n_tile.cpp.o
+Level3/땅따먹기.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/땅따먹기.cpp.o
+.PHONY : Level3/땅따먹기.cpp.o
 
-Level3/2n_tile.i: Level3/2n_tile.cpp.i
+Level3/땅따먹기.i: Level3/땅따먹기.cpp.i
 
-.PHONY : Level3/2n_tile.i
+.PHONY : Level3/땅따먹기.i
 
 # target to preprocess a source file
-Level3/2n_tile.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/2n_tile.cpp.i
-.PHONY : Level3/2n_tile.cpp.i
+Level3/땅따먹기.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/땅따먹기.cpp.i
+.PHONY : Level3/땅따먹기.cpp.i
 
-Level3/2n_tile.s: Level3/2n_tile.cpp.s
+Level3/땅따먹기.s: Level3/땅따먹기.cpp.s
 
-.PHONY : Level3/2n_tile.s
+.PHONY : Level3/땅따먹기.s
 
 # target to generate assembly for a file
-Level3/2n_tile.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/2n_tile.cpp.s
-.PHONY : Level3/2n_tile.cpp.s
+Level3/땅따먹기.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/땅따먹기.cpp.s
+.PHONY : Level3/땅따먹기.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Level3/2n_tile.o"
-	@echo "... Level3/2n_tile.i"
-	@echo "... Level3/2n_tile.s"
+	@echo "... Level3/땅따먹기.o"
+	@echo "... Level3/땅따먹기.i"
+	@echo "... Level3/땅따먹기.s"
 .PHONY : help
 
 
