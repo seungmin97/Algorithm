@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/땅따먹기.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/long_pellindrop.cpp
 iostream
 -
-vector
--
-algorithm
+string
 -
 

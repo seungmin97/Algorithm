@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Level3/땅따먹기.o: Level3/땅따먹기.cpp.o
+Level3/long_pellindrop.o: Level3/long_pellindrop.cpp.o
 
-.PHONY : Level3/땅따먹기.o
+.PHONY : Level3/long_pellindrop.o
 
 # target to build an object file
-Level3/땅따먹기.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/땅따먹기.cpp.o
-.PHONY : Level3/땅따먹기.cpp.o
+Level3/long_pellindrop.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/long_pellindrop.cpp.o
+.PHONY : Level3/long_pellindrop.cpp.o
 
-Level3/땅따먹기.i: Level3/땅따먹기.cpp.i
+Level3/long_pellindrop.i: Level3/long_pellindrop.cpp.i
 
-.PHONY : Level3/땅따먹기.i
+.PHONY : Level3/long_pellindrop.i
 
 # target to preprocess a source file
-Level3/땅따먹기.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/땅따먹기.cpp.i
-.PHONY : Level3/땅따먹기.cpp.i
+Level3/long_pellindrop.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/long_pellindrop.cpp.i
+.PHONY : Level3/long_pellindrop.cpp.i
 
-Level3/땅따먹기.s: Level3/땅따먹기.cpp.s
+Level3/long_pellindrop.s: Level3/long_pellindrop.cpp.s
 
-.PHONY : Level3/땅따먹기.s
+.PHONY : Level3/long_pellindrop.s
 
 # target to generate assembly for a file
-Level3/땅따먹기.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/땅따먹기.cpp.s
-.PHONY : Level3/땅따먹기.cpp.s
+Level3/long_pellindrop.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/long_pellindrop.cpp.s
+.PHONY : Level3/long_pellindrop.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Level3/땅따먹기.o"
-	@echo "... Level3/땅따먹기.i"
-	@echo "... Level3/땅따먹기.s"
+	@echo "... Level3/long_pellindrop.o"
+	@echo "... Level3/long_pellindrop.i"
+	@echo "... Level3/long_pellindrop.s"
 .PHONY : help
 
 

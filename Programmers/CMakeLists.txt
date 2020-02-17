@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers Level3/땅따먹기.cpp)
+add_executable(Programmers Level3/long_pellindrop.cpp)
