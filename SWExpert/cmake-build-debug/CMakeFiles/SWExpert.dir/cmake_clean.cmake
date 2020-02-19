@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SWExpert.dir/9280.진용이네_주차타워.cpp.o"
+  "CMakeFiles/SWExpert.dir/D3/9317.석찬이의_받아쓰기.cpp.o"
   "SWExpert.pdb"
   "SWExpert"
 )
