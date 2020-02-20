@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SWExpert.dir/D3/9229.한빈이와_Spot_Mart.cpp.o"
+  "CMakeFiles/SWExpert.dir/D3/8931.제로.cpp.o"
   "SWExpert.pdb"
   "SWExpert"
 )
