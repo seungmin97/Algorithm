@@ -3,4 +3,4 @@ project(SWExpert)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SWExpert D3/9317.석찬이의_받아쓰기.cpp)
+add_executable(SWExpert D3/9229.한빈이와_Spot_Mart.cpp)

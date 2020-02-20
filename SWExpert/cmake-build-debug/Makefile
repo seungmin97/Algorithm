@@ -123,32 +123,32 @@ SWExpert/fast:
 	$(MAKE) -f CMakeFiles/SWExpert.dir/build.make CMakeFiles/SWExpert.dir/build
 .PHONY : SWExpert/fast
 
-D3/9317.석찬이의_받아쓰기.o: D3/9317.석찬이의_받아쓰기.cpp.o
+D3/9229.한빈이와_Spot_Mart.o: D3/9229.한빈이와_Spot_Mart.cpp.o
 
-.PHONY : D3/9317.석찬이의_받아쓰기.o
+.PHONY : D3/9229.한빈이와_Spot_Mart.o
 
 # target to build an object file
-D3/9317.석찬이의_받아쓰기.cpp.o:
-	$(MAKE) -f CMakeFiles/SWExpert.dir/build.make CMakeFiles/SWExpert.dir/D3/9317.석찬이의_받아쓰기.cpp.o
-.PHONY : D3/9317.석찬이의_받아쓰기.cpp.o
+D3/9229.한빈이와_Spot_Mart.cpp.o:
+	$(MAKE) -f CMakeFiles/SWExpert.dir/build.make CMakeFiles/SWExpert.dir/D3/9229.한빈이와_Spot_Mart.cpp.o
+.PHONY : D3/9229.한빈이와_Spot_Mart.cpp.o
 
-D3/9317.석찬이의_받아쓰기.i: D3/9317.석찬이의_받아쓰기.cpp.i
+D3/9229.한빈이와_Spot_Mart.i: D3/9229.한빈이와_Spot_Mart.cpp.i
 
-.PHONY : D3/9317.석찬이의_받아쓰기.i
+.PHONY : D3/9229.한빈이와_Spot_Mart.i
 
 # target to preprocess a source file
-D3/9317.석찬이의_받아쓰기.cpp.i:
-	$(MAKE) -f CMakeFiles/SWExpert.dir/build.make CMakeFiles/SWExpert.dir/D3/9317.석찬이의_받아쓰기.cpp.i
-.PHONY : D3/9317.석찬이의_받아쓰기.cpp.i
+D3/9229.한빈이와_Spot_Mart.cpp.i:
+	$(MAKE) -f CMakeFiles/SWExpert.dir/build.make CMakeFiles/SWExpert.dir/D3/9229.한빈이와_Spot_Mart.cpp.i
+.PHONY : D3/9229.한빈이와_Spot_Mart.cpp.i
 
-D3/9317.석찬이의_받아쓰기.s: D3/9317.석찬이의_받아쓰기.cpp.s
+D3/9229.한빈이와_Spot_Mart.s: D3/9229.한빈이와_Spot_Mart.cpp.s
 
-.PHONY : D3/9317.석찬이의_받아쓰기.s
+.PHONY : D3/9229.한빈이와_Spot_Mart.s
 
 # target to generate assembly for a file
-D3/9317.석찬이의_받아쓰기.cpp.s:
-	$(MAKE) -f CMakeFiles/SWExpert.dir/build.make CMakeFiles/SWExpert.dir/D3/9317.석찬이의_받아쓰기.cpp.s
-.PHONY : D3/9317.석찬이의_받아쓰기.cpp.s
+D3/9229.한빈이와_Spot_Mart.cpp.s:
+	$(MAKE) -f CMakeFiles/SWExpert.dir/build.make CMakeFiles/SWExpert.dir/D3/9229.한빈이와_Spot_Mart.cpp.s
+.PHONY : D3/9229.한빈이와_Spot_Mart.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... SWExpert"
-	@echo "... D3/9317.석찬이의_받아쓰기.o"
-	@echo "... D3/9317.석찬이의_받아쓰기.i"
-	@echo "... D3/9317.석찬이의_받아쓰기.s"
+	@echo "... D3/9229.한빈이와_Spot_Mart.o"
+	@echo "... D3/9229.한빈이와_Spot_Mart.i"
+	@echo "... D3/9229.한빈이와_Spot_Mart.s"
 .PHONY : help
 
 
