@@ -3,4 +3,4 @@ project(SWExpert)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SWExpert D3/8931.제로.cpp)
+add_executable(SWExpert D3/8888.시험.cpp)

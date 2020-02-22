@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/SWExpert/D3/8931.제로.cpp
+/Users/leeseungmin/Desktop/Algorithm/SWExpert/D3/8888.시험.cpp
 iostream
 -
-stack
--
 vector
+-
+algorithm
+-
+string.h
 -
 
