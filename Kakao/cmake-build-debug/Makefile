@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/leeseungmin/Desktop/Algorithm/Kakao
+CMAKE_SOURCE_DIR = /Users/leeseungmin/Desktop/Kakao
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/leeseungmin/Desktop/Algorithm/Kakao/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/leeseungmin/Desktop/Kakao/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leeseungmin/Desktop/Algorithm/Kakao/cmake-build-debug/CMakeFiles /Users/leeseungmin/Desktop/Algorithm/Kakao/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leeseungmin/Desktop/Kakao/cmake-build-debug/CMakeFiles /Users/leeseungmin/Desktop/Kakao/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leeseungmin/Desktop/Algorithm/Kakao/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leeseungmin/Desktop/Kakao/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Kakao/fast:
 	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/build
 .PHONY : Kakao/fast
 
-2019_겨울인턴/problem3.o: 2019_겨울인턴/problem3.cpp.o
+2020_blind/block_move.o: 2020_blind/block_move.cpp.o
 
-.PHONY : 2019_겨울인턴/problem3.o
+.PHONY : 2020_blind/block_move.o
 
 # target to build an object file
-2019_겨울인턴/problem3.cpp.o:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/problem3.cpp.o
-.PHONY : 2019_겨울인턴/problem3.cpp.o
+2020_blind/block_move.cpp.o:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2020_blind/block_move.cpp.o
+.PHONY : 2020_blind/block_move.cpp.o
 
-2019_겨울인턴/problem3.i: 2019_겨울인턴/problem3.cpp.i
+2020_blind/block_move.i: 2020_blind/block_move.cpp.i
 
-.PHONY : 2019_겨울인턴/problem3.i
+.PHONY : 2020_blind/block_move.i
 
 # target to preprocess a source file
-2019_겨울인턴/problem3.cpp.i:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/problem3.cpp.i
-.PHONY : 2019_겨울인턴/problem3.cpp.i
+2020_blind/block_move.cpp.i:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2020_blind/block_move.cpp.i
+.PHONY : 2020_blind/block_move.cpp.i
 
-2019_겨울인턴/problem3.s: 2019_겨울인턴/problem3.cpp.s
+2020_blind/block_move.s: 2020_blind/block_move.cpp.s
 
-.PHONY : 2019_겨울인턴/problem3.s
+.PHONY : 2020_blind/block_move.s
 
 # target to generate assembly for a file
-2019_겨울인턴/problem3.cpp.s:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/problem3.cpp.s
-.PHONY : 2019_겨울인턴/problem3.cpp.s
+2020_blind/block_move.cpp.s:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2020_blind/block_move.cpp.s
+.PHONY : 2020_blind/block_move.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Kakao"
-	@echo "... 2019_겨울인턴/problem3.o"
-	@echo "... 2019_겨울인턴/problem3.i"
-	@echo "... 2019_겨울인턴/problem3.s"
+	@echo "... 2020_blind/block_move.o"
+	@echo "... 2020_blind/block_move.i"
+	@echo "... 2020_blind/block_move.s"
 .PHONY : help
 
 

@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Level3/long_pellindrop.o: Level3/long_pellindrop.cpp.o
+Level3/check.o: Level3/check.cpp.o
 
-.PHONY : Level3/long_pellindrop.o
+.PHONY : Level3/check.o
 
 # target to build an object file
-Level3/long_pellindrop.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/long_pellindrop.cpp.o
-.PHONY : Level3/long_pellindrop.cpp.o
+Level3/check.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/check.cpp.o
+.PHONY : Level3/check.cpp.o
 
-Level3/long_pellindrop.i: Level3/long_pellindrop.cpp.i
+Level3/check.i: Level3/check.cpp.i
 
-.PHONY : Level3/long_pellindrop.i
+.PHONY : Level3/check.i
 
 # target to preprocess a source file
-Level3/long_pellindrop.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/long_pellindrop.cpp.i
-.PHONY : Level3/long_pellindrop.cpp.i
+Level3/check.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/check.cpp.i
+.PHONY : Level3/check.cpp.i
 
-Level3/long_pellindrop.s: Level3/long_pellindrop.cpp.s
+Level3/check.s: Level3/check.cpp.s
 
-.PHONY : Level3/long_pellindrop.s
+.PHONY : Level3/check.s
 
 # target to generate assembly for a file
-Level3/long_pellindrop.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/long_pellindrop.cpp.s
-.PHONY : Level3/long_pellindrop.cpp.s
+Level3/check.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/check.cpp.s
+.PHONY : Level3/check.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Level3/long_pellindrop.o"
-	@echo "... Level3/long_pellindrop.i"
-	@echo "... Level3/long_pellindrop.s"
+	@echo "... Level3/check.o"
+	@echo "... Level3/check.i"
+	@echo "... Level3/check.s"
 .PHONY : help
 
 

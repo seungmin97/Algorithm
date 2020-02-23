@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Kakao.dir/2019_겨울인턴/problem3.cpp.o"
+  "CMakeFiles/Kakao.dir/2020_blind/block_move.cpp.o"
   "Kakao.pdb"
   "Kakao"
 )

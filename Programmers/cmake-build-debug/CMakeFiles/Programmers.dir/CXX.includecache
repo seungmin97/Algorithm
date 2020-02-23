@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/long_pellindrop.cpp
-string
--
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/check.cpp
 iostream
 -
-string
+math.h
 -
 

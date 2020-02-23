@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/leeseungmin/Desktop/Algorithm/Kakao/2019_겨울인턴/problem3.cpp" "/Users/leeseungmin/Desktop/Algorithm/Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/2019_겨울인턴/problem3.cpp.o"
+  "/Users/leeseungmin/Desktop/Kakao/2020_blind/block_move.cpp" "/Users/leeseungmin/Desktop/Kakao/cmake-build-debug/CMakeFiles/Kakao.dir/2020_blind/block_move.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
