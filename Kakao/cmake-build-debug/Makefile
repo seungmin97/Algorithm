@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/leeseungmin/Desktop/Kakao
+CMAKE_SOURCE_DIR = /Users/leeseungmin/Desktop/Algorithm/Kakao
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/leeseungmin/Desktop/Kakao/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/leeseungmin/Desktop/Algorithm/Kakao/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leeseungmin/Desktop/Kakao/cmake-build-debug/CMakeFiles /Users/leeseungmin/Desktop/Kakao/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leeseungmin/Desktop/Algorithm/Kakao/cmake-build-debug/CMakeFiles /Users/leeseungmin/Desktop/Algorithm/Kakao/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leeseungmin/Desktop/Kakao/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leeseungmin/Desktop/Algorithm/Kakao/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ Kakao/fast:
 	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/build
 .PHONY : Kakao/fast
 
-2020_blind/block_move.o: 2020_blind/block_move.cpp.o
+2019_blind/muji_eating_live.o: 2019_blind/muji_eating_live.cpp.o
 
-.PHONY : 2020_blind/block_move.o
+.PHONY : 2019_blind/muji_eating_live.o
 
 # target to build an object file
-2020_blind/block_move.cpp.o:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2020_blind/block_move.cpp.o
-.PHONY : 2020_blind/block_move.cpp.o
+2019_blind/muji_eating_live.cpp.o:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_blind/muji_eating_live.cpp.o
+.PHONY : 2019_blind/muji_eating_live.cpp.o
 
-2020_blind/block_move.i: 2020_blind/block_move.cpp.i
+2019_blind/muji_eating_live.i: 2019_blind/muji_eating_live.cpp.i
 
-.PHONY : 2020_blind/block_move.i
+.PHONY : 2019_blind/muji_eating_live.i
 
 # target to preprocess a source file
-2020_blind/block_move.cpp.i:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2020_blind/block_move.cpp.i
-.PHONY : 2020_blind/block_move.cpp.i
+2019_blind/muji_eating_live.cpp.i:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_blind/muji_eating_live.cpp.i
+.PHONY : 2019_blind/muji_eating_live.cpp.i
 
-2020_blind/block_move.s: 2020_blind/block_move.cpp.s
+2019_blind/muji_eating_live.s: 2019_blind/muji_eating_live.cpp.s
 
-.PHONY : 2020_blind/block_move.s
+.PHONY : 2019_blind/muji_eating_live.s
 
 # target to generate assembly for a file
-2020_blind/block_move.cpp.s:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2020_blind/block_move.cpp.s
-.PHONY : 2020_blind/block_move.cpp.s
+2019_blind/muji_eating_live.cpp.s:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_blind/muji_eating_live.cpp.s
+.PHONY : 2019_blind/muji_eating_live.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Kakao"
-	@echo "... 2020_blind/block_move.o"
-	@echo "... 2020_blind/block_move.i"
-	@echo "... 2020_blind/block_move.s"
+	@echo "... 2019_blind/muji_eating_live.o"
+	@echo "... 2019_blind/muji_eating_live.i"
+	@echo "... 2019_blind/muji_eating_live.s"
 .PHONY : help
 
 
