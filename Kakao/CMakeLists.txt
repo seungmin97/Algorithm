@@ -3,4 +3,4 @@ project(Kakao)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Kakao 2019_blind/muji_eating_live.cpp)
+add_executable(Kakao 2017_예선/브라이언의_고민.cpp)

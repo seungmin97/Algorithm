@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Kakao.dir/2019_blind/muji_eating_live.cpp.o"
+  "CMakeFiles/Kakao.dir/2017_예선/브라이언의_고민.cpp.o"
   "Kakao.pdb"
   "Kakao"
 )

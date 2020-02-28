@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Level3/check.o: Level3/check.cpp.o
+Level2/well_square.o: Level2/well_square.cpp.o
 
-.PHONY : Level3/check.o
+.PHONY : Level2/well_square.o
 
 # target to build an object file
-Level3/check.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/check.cpp.o
-.PHONY : Level3/check.cpp.o
+Level2/well_square.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/well_square.cpp.o
+.PHONY : Level2/well_square.cpp.o
 
-Level3/check.i: Level3/check.cpp.i
+Level2/well_square.i: Level2/well_square.cpp.i
 
-.PHONY : Level3/check.i
+.PHONY : Level2/well_square.i
 
 # target to preprocess a source file
-Level3/check.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/check.cpp.i
-.PHONY : Level3/check.cpp.i
+Level2/well_square.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/well_square.cpp.i
+.PHONY : Level2/well_square.cpp.i
 
-Level3/check.s: Level3/check.cpp.s
+Level2/well_square.s: Level2/well_square.cpp.s
 
-.PHONY : Level3/check.s
+.PHONY : Level2/well_square.s
 
 # target to generate assembly for a file
-Level3/check.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level3/check.cpp.s
-.PHONY : Level3/check.cpp.s
+Level2/well_square.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Level2/well_square.cpp.s
+.PHONY : Level2/well_square.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Level3/check.o"
-	@echo "... Level3/check.i"
-	@echo "... Level3/check.s"
+	@echo "... Level2/well_square.o"
+	@echo "... Level2/well_square.i"
+	@echo "... Level2/well_square.s"
 .PHONY : help
 
 

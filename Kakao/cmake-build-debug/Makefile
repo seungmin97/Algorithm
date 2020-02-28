@@ -123,32 +123,32 @@ Kakao/fast:
 	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/build
 .PHONY : Kakao/fast
 
-2019_blind/muji_eating_live.o: 2019_blind/muji_eating_live.cpp.o
+2017_예선/브라이언의_고민.o: 2017_예선/브라이언의_고민.cpp.o
 
-.PHONY : 2019_blind/muji_eating_live.o
+.PHONY : 2017_예선/브라이언의_고민.o
 
 # target to build an object file
-2019_blind/muji_eating_live.cpp.o:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_blind/muji_eating_live.cpp.o
-.PHONY : 2019_blind/muji_eating_live.cpp.o
+2017_예선/브라이언의_고민.cpp.o:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2017_예선/브라이언의_고민.cpp.o
+.PHONY : 2017_예선/브라이언의_고민.cpp.o
 
-2019_blind/muji_eating_live.i: 2019_blind/muji_eating_live.cpp.i
+2017_예선/브라이언의_고민.i: 2017_예선/브라이언의_고민.cpp.i
 
-.PHONY : 2019_blind/muji_eating_live.i
+.PHONY : 2017_예선/브라이언의_고민.i
 
 # target to preprocess a source file
-2019_blind/muji_eating_live.cpp.i:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_blind/muji_eating_live.cpp.i
-.PHONY : 2019_blind/muji_eating_live.cpp.i
+2017_예선/브라이언의_고민.cpp.i:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2017_예선/브라이언의_고민.cpp.i
+.PHONY : 2017_예선/브라이언의_고민.cpp.i
 
-2019_blind/muji_eating_live.s: 2019_blind/muji_eating_live.cpp.s
+2017_예선/브라이언의_고민.s: 2017_예선/브라이언의_고민.cpp.s
 
-.PHONY : 2019_blind/muji_eating_live.s
+.PHONY : 2017_예선/브라이언의_고민.s
 
 # target to generate assembly for a file
-2019_blind/muji_eating_live.cpp.s:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_blind/muji_eating_live.cpp.s
-.PHONY : 2019_blind/muji_eating_live.cpp.s
+2017_예선/브라이언의_고민.cpp.s:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2017_예선/브라이언의_고민.cpp.s
+.PHONY : 2017_예선/브라이언의_고민.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Kakao"
-	@echo "... 2019_blind/muji_eating_live.o"
-	@echo "... 2019_blind/muji_eating_live.i"
-	@echo "... 2019_blind/muji_eating_live.s"
+	@echo "... 2017_예선/브라이언의_고민.o"
+	@echo "... 2017_예선/브라이언의_고민.i"
+	@echo "... 2017_예선/브라이언의_고민.s"
 .PHONY : help
 
 

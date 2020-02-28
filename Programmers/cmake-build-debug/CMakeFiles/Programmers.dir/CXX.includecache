@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/check.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level2/well_square.cpp
 iostream
 -
-math.h
+bits/stdc++.h
 -
 
