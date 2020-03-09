@@ -3,4 +3,4 @@ project(Beakjoon)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Beakjoon Dijkstra/1753.최단_경로.cpp)
+add_executable(Beakjoon Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp)

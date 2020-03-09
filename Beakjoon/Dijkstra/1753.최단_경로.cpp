@@ -5,9 +5,15 @@
 #include <iostream>
 #include <vector>
 #include <string.h>
+#include <queue>
 
 using namespace std;
 
+struct path{
+    int start;
+    int end;
+    int score;
+};
 
 int main(){
 
@@ -15,42 +21,44 @@ int main(){
     int V, E, K;
     cin >> V >> E >> K;
 
-    vector<vector<pair<int, int>>> v(V + 1);
-
+    vector<path> v(V + 1);
     for (int i = 0; i < E; ++i) {
-        int temp1, temp2, score;
-        cin >> temp1 >> temp2 >> score;
-        v[temp1].push_back(make_pair(temp2, score));
+        int temp1, temp2, temp3;
+        cin >> temp1 >> temp2 >> temp3;
+
+        path p;
+        p.start = temp1;
+        p.end = temp2;
+        p.score = temp3;
+
+        v.push_back(p);
     }
 
+    queue<int> q;
+    q.push(K);
     int result[V + 1];
     memset(result, 0, sizeof(int) * (V + 1));
-    int index = K;
-    int next = 0;
-    while(1){
 
-        if(v[index].size() == 0){
-            break;
+    while(q.size() != 0){
+
+        int index = q.front();
+
+        int size = v.size();
+        for (int i = 0; i < size; ++i) {
+            if(v[i].start == index){
+                q.push(v[i].end);
+                if(result[v[i].end] == 0){
+                    result[v[i].end] = result[index] + v[i].score;
+                }
+                else{
+                    result[v[i].end] = min(result[index] + v[i].score, result[v[i].end]);
+                }
+            }
+            v.erase(v.begin() + i);
         }
 
-        for (int i = 0; i < v[index].size(); ++i) {
+        q.pop();
 
-            if(result[v[index][i].first] != 0){
-                result[v[index][i].first] = min(result[v[index][i].first], result[index] + v[index][i].second);
-            }
-            else{
-                result[v[index][i].first] = result[index] + v[index][i].second;
-            }
-
-            if(i == 0){
-                next = v[index][i].first;
-            }
-            else if(result[next] > result[v[index][i].first]){
-                next = v[index][i].first;
-            }
-        }
-
-        index = next;
     }
 
     for (int i = 1; i <= V; ++i) {
@@ -64,5 +72,6 @@ int main(){
             cout << result[i] << endl;
         }
     }
+
     return 0;
 }
