@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers Level2/well_square.cpp)
+add_executable(Programmers Level3/far_node.cpp)
