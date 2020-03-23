@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/far_node.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/long_jump.cpp
 iostream
 -
 string
 -
 vector
--
-algorithm
--
-string.h
--
-queue
 -
 

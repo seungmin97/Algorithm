@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/far_node.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/long_jump.cpp">
 			<Option target="Programmers"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/CMakeLists.txt">
