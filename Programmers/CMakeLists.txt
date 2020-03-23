@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers Level3/long_jump.cpp)
+add_executable(Programmers Level3/make_a_line.cpp)
