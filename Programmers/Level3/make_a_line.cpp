@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int factorial(int n){
+long long factorial(int n){
     if(n<=1) return 1;
     else return n*factorial(n-1);
 }
@@ -23,7 +23,7 @@ vector<int> solution(int n, long long k) {
 
     while(1){
 
-       int num = factorial(temp.size() - 1);
+       long long num = factorial(temp.size() - 1);
        int index = (k - 1) / num;
 
        answer.push_back(temp[index]);
