@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Level3/island.cpp.o"
+  "CMakeFiles/Programmers.dir/Level3/travel_route.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )

@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/island.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Level3/travel_route.cpp
 iostream
 -
 string
 -
 vector
--
-string.h
--
-algorithm
 -
 
