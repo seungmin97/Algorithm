@@ -12,7 +12,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc9e4c99-ce47-4cb2-b32b-9789b03c4f52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Programmers/Hash/bestAlbum2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/Hash/bestAlbum.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/Hash/bestAlbum.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/Level3/travel_route.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Programmers" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Programmers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Programmers.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Programmers/cmake-build-debug/Programmers.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +41,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -51,7 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -59,15 +73,11 @@
               <item name="Beakjoon" type="b2602c69:ProjectViewProjectNode" />
               <item name="Beakjoon" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Beakjoon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Beakjoon" type="462c0819:PsiDirectoryNode" />
-              <item name="Dijkstra" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -112,16 +122,17 @@
       <workItem from="1583143346799" duration="1000" />
       <workItem from="1583207901690" duration="240000" />
       <workItem from="1583739654335" duration="3605000" />
+      <workItem from="1586938074311" duration="831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8586000" />
+    <option name="totallyTimeSpent" value="9417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -224,16 +235,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dijkstra/1719.택배.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Dijkstra/1719.택배.cpp" />
     <entry file="file://$PROJECT_DIR$/Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">

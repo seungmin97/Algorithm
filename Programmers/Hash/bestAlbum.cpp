@@ -21,7 +21,7 @@ bool cmp(const tuple <string, int, int> &p1, const tuple <string, int, int> &p2)
             return false;
         }
     }
-    else if(get<0>(p1) > get<0>(p2)){
+    else if(get<0>(p1)> get<0>(p2)){
         return false;
     }
     else{
