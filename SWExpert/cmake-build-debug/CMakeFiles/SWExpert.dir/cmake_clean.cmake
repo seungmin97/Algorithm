@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/SWExpert.dir/D3/8888.시험.cpp.o"
+  "CMakeFiles/SWExpert.dir/D3/1206.View.cpp.o"
   "SWExpert.pdb"
   "SWExpert"
 )
