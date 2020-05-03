@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Hash/phoneNumberList2.cpp.o"
+  "CMakeFiles/Programmers.dir/Sort/k_Num.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )

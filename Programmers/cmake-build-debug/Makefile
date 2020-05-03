@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Hash/phoneNumberList2.o: Hash/phoneNumberList2.cpp.o
+Sort/k_Num.o: Sort/k_Num.cpp.o
 
-.PHONY : Hash/phoneNumberList2.o
+.PHONY : Sort/k_Num.o
 
 # target to build an object file
-Hash/phoneNumberList2.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/phoneNumberList2.cpp.o
-.PHONY : Hash/phoneNumberList2.cpp.o
+Sort/k_Num.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/k_Num.cpp.o
+.PHONY : Sort/k_Num.cpp.o
 
-Hash/phoneNumberList2.i: Hash/phoneNumberList2.cpp.i
+Sort/k_Num.i: Sort/k_Num.cpp.i
 
-.PHONY : Hash/phoneNumberList2.i
+.PHONY : Sort/k_Num.i
 
 # target to preprocess a source file
-Hash/phoneNumberList2.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/phoneNumberList2.cpp.i
-.PHONY : Hash/phoneNumberList2.cpp.i
+Sort/k_Num.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/k_Num.cpp.i
+.PHONY : Sort/k_Num.cpp.i
 
-Hash/phoneNumberList2.s: Hash/phoneNumberList2.cpp.s
+Sort/k_Num.s: Sort/k_Num.cpp.s
 
-.PHONY : Hash/phoneNumberList2.s
+.PHONY : Sort/k_Num.s
 
 # target to generate assembly for a file
-Hash/phoneNumberList2.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Hash/phoneNumberList2.cpp.s
-.PHONY : Hash/phoneNumberList2.cpp.s
+Sort/k_Num.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/k_Num.cpp.s
+.PHONY : Sort/k_Num.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Hash/phoneNumberList2.o"
-	@echo "... Hash/phoneNumberList2.i"
-	@echo "... Hash/phoneNumberList2.s"
+	@echo "... Sort/k_Num.o"
+	@echo "... Sort/k_Num.i"
+	@echo "... Sort/k_Num.s"
 .PHONY : help
 
 
