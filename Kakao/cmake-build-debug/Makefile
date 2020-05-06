@@ -123,32 +123,32 @@ Kakao/fast:
 	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/build
 .PHONY : Kakao/fast
 
-2017_예선/브라이언의_고민.o: 2017_예선/브라이언의_고민.cpp.o
+2019_겨울인턴/호텔_방_배정.o: 2019_겨울인턴/호텔_방_배정.cpp.o
 
-.PHONY : 2017_예선/브라이언의_고민.o
+.PHONY : 2019_겨울인턴/호텔_방_배정.o
 
 # target to build an object file
-2017_예선/브라이언의_고민.cpp.o:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2017_예선/브라이언의_고민.cpp.o
-.PHONY : 2017_예선/브라이언의_고민.cpp.o
+2019_겨울인턴/호텔_방_배정.cpp.o:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/호텔_방_배정.cpp.o
+.PHONY : 2019_겨울인턴/호텔_방_배정.cpp.o
 
-2017_예선/브라이언의_고민.i: 2017_예선/브라이언의_고민.cpp.i
+2019_겨울인턴/호텔_방_배정.i: 2019_겨울인턴/호텔_방_배정.cpp.i
 
-.PHONY : 2017_예선/브라이언의_고민.i
+.PHONY : 2019_겨울인턴/호텔_방_배정.i
 
 # target to preprocess a source file
-2017_예선/브라이언의_고민.cpp.i:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2017_예선/브라이언의_고민.cpp.i
-.PHONY : 2017_예선/브라이언의_고민.cpp.i
+2019_겨울인턴/호텔_방_배정.cpp.i:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/호텔_방_배정.cpp.i
+.PHONY : 2019_겨울인턴/호텔_방_배정.cpp.i
 
-2017_예선/브라이언의_고민.s: 2017_예선/브라이언의_고민.cpp.s
+2019_겨울인턴/호텔_방_배정.s: 2019_겨울인턴/호텔_방_배정.cpp.s
 
-.PHONY : 2017_예선/브라이언의_고민.s
+.PHONY : 2019_겨울인턴/호텔_방_배정.s
 
 # target to generate assembly for a file
-2017_예선/브라이언의_고민.cpp.s:
-	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2017_예선/브라이언의_고민.cpp.s
-.PHONY : 2017_예선/브라이언의_고민.cpp.s
+2019_겨울인턴/호텔_방_배정.cpp.s:
+	$(MAKE) -f CMakeFiles/Kakao.dir/build.make CMakeFiles/Kakao.dir/2019_겨울인턴/호텔_방_배정.cpp.s
+.PHONY : 2019_겨울인턴/호텔_방_배정.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Kakao"
-	@echo "... 2017_예선/브라이언의_고민.o"
-	@echo "... 2017_예선/브라이언의_고민.i"
-	@echo "... 2017_예선/브라이언의_고민.s"
+	@echo "... 2019_겨울인턴/호텔_방_배정.o"
+	@echo "... 2019_겨울인턴/호텔_방_배정.i"
+	@echo "... 2019_겨울인턴/호텔_방_배정.s"
 .PHONY : help
 
 
