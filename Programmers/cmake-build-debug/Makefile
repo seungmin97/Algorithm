@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Sort/k_Num.o: Sort/k_Num.cpp.o
+Binary_Search/budget.o: Binary_Search/budget.cpp.o
 
-.PHONY : Sort/k_Num.o
+.PHONY : Binary_Search/budget.o
 
 # target to build an object file
-Sort/k_Num.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/k_Num.cpp.o
-.PHONY : Sort/k_Num.cpp.o
+Binary_Search/budget.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Binary_Search/budget.cpp.o
+.PHONY : Binary_Search/budget.cpp.o
 
-Sort/k_Num.i: Sort/k_Num.cpp.i
+Binary_Search/budget.i: Binary_Search/budget.cpp.i
 
-.PHONY : Sort/k_Num.i
+.PHONY : Binary_Search/budget.i
 
 # target to preprocess a source file
-Sort/k_Num.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/k_Num.cpp.i
-.PHONY : Sort/k_Num.cpp.i
+Binary_Search/budget.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Binary_Search/budget.cpp.i
+.PHONY : Binary_Search/budget.cpp.i
 
-Sort/k_Num.s: Sort/k_Num.cpp.s
+Binary_Search/budget.s: Binary_Search/budget.cpp.s
 
-.PHONY : Sort/k_Num.s
+.PHONY : Binary_Search/budget.s
 
 # target to generate assembly for a file
-Sort/k_Num.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Sort/k_Num.cpp.s
-.PHONY : Sort/k_Num.cpp.s
+Binary_Search/budget.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Binary_Search/budget.cpp.s
+.PHONY : Binary_Search/budget.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Sort/k_Num.o"
-	@echo "... Sort/k_Num.i"
-	@echo "... Sort/k_Num.s"
+	@echo "... Binary_Search/budget.o"
+	@echo "... Binary_Search/budget.i"
+	@echo "... Binary_Search/budget.s"
 .PHONY : help
 
 

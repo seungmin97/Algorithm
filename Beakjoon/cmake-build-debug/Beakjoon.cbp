@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Beakjoon/Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Beakjoon/Binary_Search/Find_Num.cpp">
 			<Option target="Beakjoon"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Beakjoon/CMakeLists.txt">

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Beakjoon.dir/Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.o"
+  "CMakeFiles/Beakjoon.dir/Binary_Search/Find_Num.cpp.o"
   "Beakjoon.pdb"
   "Beakjoon"
 )

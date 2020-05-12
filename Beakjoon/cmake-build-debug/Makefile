@@ -123,32 +123,32 @@ Beakjoon/fast:
 	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/build
 .PHONY : Beakjoon/fast
 
-Dijkstra/4485.녹색_옷_입은_애가_젤다지?.o: Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.o
+Binary_Search/Find_Num.o: Binary_Search/Find_Num.cpp.o
 
-.PHONY : Dijkstra/4485.녹색_옷_입은_애가_젤다지?.o
+.PHONY : Binary_Search/Find_Num.o
 
 # target to build an object file
-Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.o:
-	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.o
-.PHONY : Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.o
+Binary_Search/Find_Num.cpp.o:
+	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/Binary_Search/Find_Num.cpp.o
+.PHONY : Binary_Search/Find_Num.cpp.o
 
-Dijkstra/4485.녹색_옷_입은_애가_젤다지?.i: Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.i
+Binary_Search/Find_Num.i: Binary_Search/Find_Num.cpp.i
 
-.PHONY : Dijkstra/4485.녹색_옷_입은_애가_젤다지?.i
+.PHONY : Binary_Search/Find_Num.i
 
 # target to preprocess a source file
-Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.i:
-	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.i
-.PHONY : Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.i
+Binary_Search/Find_Num.cpp.i:
+	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/Binary_Search/Find_Num.cpp.i
+.PHONY : Binary_Search/Find_Num.cpp.i
 
-Dijkstra/4485.녹색_옷_입은_애가_젤다지?.s: Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.s
+Binary_Search/Find_Num.s: Binary_Search/Find_Num.cpp.s
 
-.PHONY : Dijkstra/4485.녹색_옷_입은_애가_젤다지?.s
+.PHONY : Binary_Search/Find_Num.s
 
 # target to generate assembly for a file
-Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.s:
-	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.s
-.PHONY : Dijkstra/4485.녹색_옷_입은_애가_젤다지?.cpp.s
+Binary_Search/Find_Num.cpp.s:
+	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/Binary_Search/Find_Num.cpp.s
+.PHONY : Binary_Search/Find_Num.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Beakjoon"
-	@echo "... Dijkstra/4485.녹색_옷_입은_애가_젤다지?.o"
-	@echo "... Dijkstra/4485.녹색_옷_입은_애가_젤다지?.i"
-	@echo "... Dijkstra/4485.녹색_옷_입은_애가_젤다지?.s"
+	@echo "... Binary_Search/Find_Num.o"
+	@echo "... Binary_Search/Find_Num.i"
+	@echo "... Binary_Search/Find_Num.s"
 .PHONY : help
 
 
