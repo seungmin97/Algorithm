@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Binary_Search/budget.cpp.o"
+  "CMakeFiles/Programmers.dir/Binary_Search/immigration.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )

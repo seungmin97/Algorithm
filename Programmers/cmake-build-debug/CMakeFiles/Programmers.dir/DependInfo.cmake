@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/leeseungmin/Desktop/Algorithm/Programmers/Binary_Search/budget.cpp" "/Users/leeseungmin/Desktop/Algorithm/Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/Binary_Search/budget.cpp.o"
+  "/Users/leeseungmin/Desktop/Algorithm/Programmers/Binary_Search/immigration.cpp" "/Users/leeseungmin/Desktop/Algorithm/Programmers/cmake-build-debug/CMakeFiles/Programmers.dir/Binary_Search/immigration.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

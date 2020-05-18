@@ -12,32 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fd6c9c3-0ac9-440f-8c63-7c94510e869b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Binary_Search/budget.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary_Search/immigration.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/Beakjoon" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/Beakjoon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/Beakjoon.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/Beakjoon.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/CMakeFiles/Beakjoon.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Beakjoon/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary_Search/immigration.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Binary_Search/immigration.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Programmers" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Programmers" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Programmers.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Programmers.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -71,11 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Binary_Search/budget.cpp">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding>
+                <element signature="e#40#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Binary_Search/immigration.cpp">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -86,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Level3/budget.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -347,11 +339,12 @@
       <workItem from="1589179331600" duration="46000" />
       <workItem from="1589290608064" duration="124000" />
       <workItem from="1589294529502" duration="777000" />
+      <workItem from="1589786774050" duration="290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162637000" />
+    <option name="totallyTimeSpent" value="162927000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,12 +359,12 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24678111" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25035766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2433735" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2433735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42048192" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1020,8 +1013,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Level3/budget.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Binary_Search/budget.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
@@ -1037,18 +1040,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Binary_Search/immigration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary_Search/budget.cpp">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>

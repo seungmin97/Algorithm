@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/Binary_Search/budget.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/Binary_Search/immigration.cpp">
 			<Option target="Programmers"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/CMakeLists.txt">
