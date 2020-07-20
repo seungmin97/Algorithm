@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/Binary_Search/stepping_stone.cpp.o"
+  "CMakeFiles/Programmers.dir/2020_카카오_인턴십/keypad.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )

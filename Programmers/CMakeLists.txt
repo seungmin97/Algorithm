@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers Binary_Search/stepping_stone.cpp)
+add_executable(Programmers 2020_카카오_인턴십/keypad.cpp)

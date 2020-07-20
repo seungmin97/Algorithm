@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Binary_Search/stepping_stone.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/2020_카카오_인턴십/keypad.cpp
 iostream
 -
 string
 -
+math.h
+-
 vector
--
-algorithm
--
-stack
 -
 
