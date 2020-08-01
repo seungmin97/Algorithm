@@ -6,12 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/2020_카카오_인턴십/keypad.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/2020_카카오_인턴십/jewerly_shopping.cpp
 iostream
 -
 string
--
-math.h
 -
 vector
 -

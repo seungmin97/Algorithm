@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-2020_카카오_인턴십/keypad.o: 2020_카카오_인턴십/keypad.cpp.o
+2020_카카오_인턴십/jewerly_shopping.o: 2020_카카오_인턴십/jewerly_shopping.cpp.o
 
-.PHONY : 2020_카카오_인턴십/keypad.o
+.PHONY : 2020_카카오_인턴십/jewerly_shopping.o
 
 # target to build an object file
-2020_카카오_인턴십/keypad.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/keypad.cpp.o
-.PHONY : 2020_카카오_인턴십/keypad.cpp.o
+2020_카카오_인턴십/jewerly_shopping.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/jewerly_shopping.cpp.o
+.PHONY : 2020_카카오_인턴십/jewerly_shopping.cpp.o
 
-2020_카카오_인턴십/keypad.i: 2020_카카오_인턴십/keypad.cpp.i
+2020_카카오_인턴십/jewerly_shopping.i: 2020_카카오_인턴십/jewerly_shopping.cpp.i
 
-.PHONY : 2020_카카오_인턴십/keypad.i
+.PHONY : 2020_카카오_인턴십/jewerly_shopping.i
 
 # target to preprocess a source file
-2020_카카오_인턴십/keypad.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/keypad.cpp.i
-.PHONY : 2020_카카오_인턴십/keypad.cpp.i
+2020_카카오_인턴십/jewerly_shopping.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/jewerly_shopping.cpp.i
+.PHONY : 2020_카카오_인턴십/jewerly_shopping.cpp.i
 
-2020_카카오_인턴십/keypad.s: 2020_카카오_인턴십/keypad.cpp.s
+2020_카카오_인턴십/jewerly_shopping.s: 2020_카카오_인턴십/jewerly_shopping.cpp.s
 
-.PHONY : 2020_카카오_인턴십/keypad.s
+.PHONY : 2020_카카오_인턴십/jewerly_shopping.s
 
 # target to generate assembly for a file
-2020_카카오_인턴십/keypad.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/keypad.cpp.s
-.PHONY : 2020_카카오_인턴십/keypad.cpp.s
+2020_카카오_인턴십/jewerly_shopping.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/jewerly_shopping.cpp.s
+.PHONY : 2020_카카오_인턴십/jewerly_shopping.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... 2020_카카오_인턴십/keypad.o"
-	@echo "... 2020_카카오_인턴십/keypad.i"
-	@echo "... 2020_카카오_인턴십/keypad.s"
+	@echo "... 2020_카카오_인턴십/jewerly_shopping.o"
+	@echo "... 2020_카카오_인턴십/jewerly_shopping.i"
+	@echo "... 2020_카카오_인턴십/jewerly_shopping.s"
 .PHONY : help
 
 
