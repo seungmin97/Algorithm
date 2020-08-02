@@ -3,8 +3,10 @@
 //
 
 #include <iostream>
+/*
 #include <string>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -31,12 +33,11 @@ bool cmp2(const pair<int, int> &p1, const pair<int, int> &p2){
 
 vector<jewerly> find_jewerly(string temp, int index, vector<jewerly> jewer){
 
-    int check = 0;
+    vector<jewerly> je = jewer;
     for (int i = 0; i < jewer.size(); ++i) {
-        if(jewer[i].name == temp){
-            jewer[i].index.push_back(index);
-            check = 1;
-            return jewer;
+        if(je[i].name == temp){
+            je[i].index.push_back(index);
+            return je;
         }
     }
 
@@ -44,9 +45,9 @@ vector<jewerly> find_jewerly(string temp, int index, vector<jewerly> jewer){
     j.name = temp;
     j.index.push_back(index);
 
-    jewer.push_back(j);
+    je.push_back(j);
 
-    return jewer;
+    return je;
 }
 
 
@@ -56,7 +57,7 @@ vector<int> solution(vector<string> gems) {
     vector<pair<int, int>> temp;
 
     for (int i = 0; i < gems.size(); ++i) {
-        find_jewerly(gems[i], i, jewer);
+        jewer = find_jewerly(gems[i], i, jewer);
     }
 
     sort(jewer.begin(), jewer.end(), cmp);
@@ -74,7 +75,7 @@ vector<int> solution(vector<string> gems) {
             }
             else{
                 for (int j = 0; j < jewer[i].index.size(); ++j) {
-                    jewer = temp.push_back(make_pair(jewer[i].index[j], jewer[i].index[j]));
+                    temp.push_back(make_pair(jewer[i].index[j], jewer[i].index[j]));
                 }
             }
         }
@@ -131,7 +132,7 @@ vector<int> solution(vector<string> gems) {
                         else if(right == -1){
                             temp[j].first = left;
                         }
-                        else if(abs(left - temp[j].second) >= abs(right - temp[j].first)){
+                        else if(abs(left - temp[j].first) <= abs(right - temp[j].second)){
                             temp[j].first = left;
                         }
                         else{
@@ -149,6 +150,59 @@ vector<int> solution(vector<string> gems) {
     answer.push_back(temp[0].second + 1);
 
     return answer;
+}*/
+
+#include <string>
+#include <vector>
+#include <unordered_map>
+#include <unordered_set>
+#include <iostream>
+using namespace std;
+
+vector<int> solution(vector<string> gems) {
+    vector<int> answer;
+    answer.push_back(0);
+    answer.push_back(0); // 정답 리턴을 위한 초기화
+
+    // set을 사용하여 보석의 종류수를 센다.
+    unordered_set<string> s;
+
+    for (auto tmp : gems) {
+        s.insert(tmp);
+    }
+
+    int kind = s.size();
+
+    // map을 사용하여 구간내 보석의 빈도수를 센다.
+    unordered_map<string, int> m;
+    int start = 0, end = 0;
+    int minDist = 0x7fffffff;
+
+    // 투포인터 기법을 사용해 연속된 구간들을 탐색해본다.
+    while (1) {
+        if (m.size() >= kind) { // 현재 구간이 조건에 맞는다면(모든 종류의 보석을 포함한다면)
+            m[gems[start]]--; // 구간을 줄여본다.(맨 앞의 보석을 제거한다.)
+            if (m[gems[start]] == 0)
+                m.erase(gems[start]);
+            start++;
+        }
+        else if (end == gems.size()) // 현재 구간이 조건에 맞지않고, 마지막 포인터가 범위를 초과하면
+            break; // 구간 탐색을 중지한다.
+        else { // 현재 구간이 조건에 맞지 않는다면, 마지막 포인터를 증가시켜본다.(맨 뒤에 보석을 추가한다.)
+            m[gems[end]]++;
+            end++;
+        }
+
+        if (m.size() == kind) { // 현재 구간이 조건에 맞는지 확인한다.(모든 종류 보석 포함여부)
+            if (abs(end - start) < minDist) { // 조건을 만족하는 최소 구간을 구한다.
+                minDist = abs(end - start);
+                answer[0] = start + 1;
+                answer[1] = end;
+            }
+        }
+    }
+
+    return answer;
 }
 
 int main(){
@@ -157,14 +211,17 @@ int main(){
     answer = solution({"DIA", "RUBY", "RUBY", "DIA", "DIA", "EMERALD", "SAPPHIRE", "DIA"});
     cout << answer[0] << " " << answer[1] << endl;
 
+    answer.erase(answer.begin(), answer.end());
     answer = solution({"AA", "AB", "AC", "AA", "AC"});
-    cout << answer[2] << " " << answer[3] << endl;
+    cout << answer[0] << " " << answer[1] << endl;
 
+    answer.erase(answer.begin(), answer.end());
     answer = solution({"XYZ", "XYZ", "XYZ"});
-    cout << answer[4] << " " << answer[5] << endl;
+    cout << answer[0] << " " << answer[1] << endl;
 
-    /*answer = solution({"ZZZ", "YYY", "NNNN", "YYY", "BBB"});
-    cout << answer[6] << " " << answer[7] << endl;*/
+    answer.erase(answer.begin(), answer.end());
+    answer = solution({"ZZZ", "YYY", "NNNN", "YYY", "BBB"});
+    cout << answer[0] << " " << answer[1] << endl;
 
     return 0;
 }

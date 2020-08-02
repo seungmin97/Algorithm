@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6fd6c9c3-0ac9-440f-8c63-7c94510e869b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/2020_카카오_인턴십/jewerly_shopping.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2020_카카오_인턴십/jewerly_shopping.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +30,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/jewerly_shopping.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="172">
+              <caret line="177" column="27" lean-forward="true" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
               <folding>
-                <element signature="e#40#59#0" expanded="true" />
+                <element signature="e#60#4277#0" />
+                <element signature="e#4279#4296#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,6 +53,7 @@
     <findStrings>
       <find>memset</find>
       <find>cout</find>
+      <find>jewer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,6 +144,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,11 +301,12 @@
       <workItem from="1595227376192" duration="4075000" />
       <workItem from="1595861289393" duration="23000" />
       <workItem from="1596262017423" duration="4815000" />
+      <workItem from="1596341379056" duration="1599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176981000" />
+    <option name="totallyTimeSpent" value="178580000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,7 +321,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27181688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27539343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -330,7 +332,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.32650602" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32650602" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32891566" />
@@ -581,8 +583,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/2020_카카오_인턴십/jewerly_shopping.cpp</url>
-          <line>162</line>
-          <option name="timeStamp" value="145" />
+          <line>69</line>
+          <option name="timeStamp" value="150" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -591,13 +593,17 @@
         <watch expression="time" />
         <watch expression="index" language="ObjectiveC" />
         <watch expression="jewer" language="ObjectiveC" />
-        <watch expression="jewer[i].index[0]" language="ObjectiveC" />
-        <watch expression="temp[j].first" language="ObjectiveC" />
+        <watch expression="temp[j].second" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>temp[j].second</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>temp[j].first</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -640,11 +646,6 @@
       </expression>
       <expression>
         <expression-string>rocks[i]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>phone_book[i]</expression-string>
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1012,10 +1013,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/jewerly_shopping.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="172">
+          <caret line="177" column="27" lean-forward="true" selection-start-line="177" selection-start-column="27" selection-end-line="177" selection-end-column="27" />
           <folding>
-            <element signature="e#40#59#0" expanded="true" />
+            <element signature="e#60#4277#0" />
+            <element signature="e#4279#4296#0" expanded="true" />
           </folding>
         </state>
       </provider>
