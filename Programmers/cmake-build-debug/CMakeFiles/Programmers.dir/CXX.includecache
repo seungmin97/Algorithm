@@ -6,23 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/2020_카카오_인턴십/jewerly_shopping.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/2020_카카오_인턴십/race.cpp
 iostream
 -
 string
 -
 vector
--
-algorithm
--
-string
--
-vector
--
-unordered_map
--
-unordered_set
--
-iostream
 -
 

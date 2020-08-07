@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-2020_카카오_인턴십/jewerly_shopping.o: 2020_카카오_인턴십/jewerly_shopping.cpp.o
+2020_카카오_인턴십/race.o: 2020_카카오_인턴십/race.cpp.o
 
-.PHONY : 2020_카카오_인턴십/jewerly_shopping.o
+.PHONY : 2020_카카오_인턴십/race.o
 
 # target to build an object file
-2020_카카오_인턴십/jewerly_shopping.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/jewerly_shopping.cpp.o
-.PHONY : 2020_카카오_인턴십/jewerly_shopping.cpp.o
+2020_카카오_인턴십/race.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/race.cpp.o
+.PHONY : 2020_카카오_인턴십/race.cpp.o
 
-2020_카카오_인턴십/jewerly_shopping.i: 2020_카카오_인턴십/jewerly_shopping.cpp.i
+2020_카카오_인턴십/race.i: 2020_카카오_인턴십/race.cpp.i
 
-.PHONY : 2020_카카오_인턴십/jewerly_shopping.i
+.PHONY : 2020_카카오_인턴십/race.i
 
 # target to preprocess a source file
-2020_카카오_인턴십/jewerly_shopping.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/jewerly_shopping.cpp.i
-.PHONY : 2020_카카오_인턴십/jewerly_shopping.cpp.i
+2020_카카오_인턴십/race.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/race.cpp.i
+.PHONY : 2020_카카오_인턴십/race.cpp.i
 
-2020_카카오_인턴십/jewerly_shopping.s: 2020_카카오_인턴십/jewerly_shopping.cpp.s
+2020_카카오_인턴십/race.s: 2020_카카오_인턴십/race.cpp.s
 
-.PHONY : 2020_카카오_인턴십/jewerly_shopping.s
+.PHONY : 2020_카카오_인턴십/race.s
 
 # target to generate assembly for a file
-2020_카카오_인턴십/jewerly_shopping.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/jewerly_shopping.cpp.s
-.PHONY : 2020_카카오_인턴십/jewerly_shopping.cpp.s
+2020_카카오_인턴십/race.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_인턴십/race.cpp.s
+.PHONY : 2020_카카오_인턴십/race.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... 2020_카카오_인턴십/jewerly_shopping.o"
-	@echo "... 2020_카카오_인턴십/jewerly_shopping.i"
-	@echo "... 2020_카카오_인턴십/jewerly_shopping.s"
+	@echo "... 2020_카카오_인턴십/race.o"
+	@echo "... 2020_카카오_인턴십/race.i"
+	@echo "... 2020_카카오_인턴십/race.s"
 .PHONY : help
 
 
