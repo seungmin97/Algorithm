@@ -6,6 +6,7 @@
 #include <string>
 #include <queue>
 #include <vector>
+#include <string.h>
 
 using namespace std;
 
@@ -16,11 +17,10 @@ struct Point{
 int solution(vector<vector<int>> board) {
     int answer = 0;
 
-    bool **map = new bool*[board.size()];
+    int map[board.size()][board.size()];
     for (int i = 0; i < board.size(); ++i) {
-        memset(map[i], false, sizeof(bool) * board.size());
+        memset(map[i], 0, sizeof(int) * board.size());
     }
-
 
     queue<Point> q;
     q.push({0, 0, -1, 0});
@@ -33,11 +33,6 @@ int solution(vector<vector<int>> board) {
     while(q.size() != 0){
         Point point = q.front();
 
-        if(point.x == board.size() - 1 && point.y == board.size() - 1) {
-            answer = min(answer, point.price);
-            continue;
-        }
-        
         for (int i = 0; i < 4; ++i) {
             int x = point.x + dx[i];
             int y = point.y + dy[i];
@@ -53,30 +48,39 @@ int solution(vector<vector<int>> board) {
                 new_cost = point.price + 600;
             }
 
-            if (map[x][y] == 0) {
+            if(x == board.size() - 1 && y == board.size() - 1){
+                if(map[x][y] == 0){
+                    map[x][y] = new_cost;
+                }
+                else{
+                    map[x][y] = min(map[x][y], new_cost);
+                }
+            }
+            else if (map[x][y] == 0) {
                 map[x][y] = new_cost;
-                q.push({x, y, i, new_cost});
+                    q.push({x, y, i, new_cost});
+
             } else if (map[x][y] >= new_cost) {
                 map[x][y] = new_cost;
-                q.push({x, y, i, new_cost});
+                    q.push({x, y, i, new_cost});
+
             }
         }
+
         q.pop();
     }
 
-    answer = board[board.size()-1][board.size() - 1];
+    answer = map[board.size()-1][board.size() - 1];
     return answer;
 }
-
-
 
 int main(){
 
     cout << solution({{0,0,0},{0,0,0},{0,0,0}}) << endl;
-    //cout << solution({{0,0,0,0,0,0,0,1},{0,0,0,0,0,0,0,0},{0,0,0,0,0,1,0,0},{0,0,0,0,1,0,0,0},{0,0,0,1,0,0,0,1},
-    //                  {0,0,1,0,0,0,1,0},{0,1,0,0,0,1,0,0}{1,0,0,0,0,0,0,0}}) << endl;
-    //cout << solution({{0,0,1,0},{0,0,0,0},{0,1,0,1},{1,0,0,0}}) << endl;
-    //cout << solution({{0,0,0,0,0,0},{0,1,1,1,1,0},{0,0,1,0,0,0},{1,0,0,1,0,},{0,1,0,0,0,1},{0,0,0,0,0,0}})
+    cout << solution({{0,0,0,0,0,0,0,1},{0,0,0,0,0,0,0,0},{0,0,0,0,0,1,0,0},{0,0,0,0,1,0,0,0},{0,0,0,1,0,0,0,1},
+                      {0,0,1,0,0,0,1,0},{0,1,0,0,0,1,0,0},{1,0,0,0,0,0,0,0}}) << endl;
+    cout << solution({{0,0,1,0},{0,0,0,0},{0,1,0,1},{1,0,0,0}}) << endl;
+    cout << solution({{0,0,0,0,0,0},{0,1,1,1,1,0},{0,0,1,0,0,0},{1,0,0,1,0,1},{0,1,0,0,0,1},{0,0,0,0,0,0}});
 
     return 0;
 }

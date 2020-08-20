@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fd6c9c3-0ac9-440f-8c63-7c94510e869b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020_카카오_인턴십/race.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2020_카카오_인턴십/race.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -43,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/race.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+            <state relative-caret-position="486">
+              <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -138,9 +139,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="814" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectId" id="1TaJ8KwXo31qZBPtRQg4DYgquC3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -325,11 +325,14 @@
       <workItem from="1596341379056" duration="1599000" />
       <workItem from="1596777207073" duration="3655000" />
       <workItem from="1596968749702" duration="4898000" />
+      <workItem from="1597374506145" duration="729000" />
+      <workItem from="1597442570926" duration="589000" />
+      <workItem from="1597905415885" duration="3596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187133000" />
+    <option name="totallyTimeSpent" value="192047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,7 +347,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2825465" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -611,8 +614,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/2020_카카오_인턴십/race.cpp</url>
-          <line>74</line>
-          <option name="timeStamp" value="153" />
+          <line>23</line>
+          <option name="timeStamp" value="155" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1041,8 +1044,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/race.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        <state relative-caret-position="486">
+          <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
