@@ -5,15 +5,28 @@
       <config projectName="Programmers" targetName="Programmers" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fd6c9c3-0ac9-440f-8c63-7c94510e869b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2020_카카오_인턴십/cave_exploration.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020_카카오_인턴십/race.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2020_카카오_인턴십/race.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DP/Integer_Triangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DP/Integer_Triangle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Programmers.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Programmers" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Programmers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Programmers.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Programmers.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,24 +41,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/jewerly_shopping.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2730">
-              <caret line="182" column="14" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
-              <folding>
-                <element signature="e#60#4277#0" />
-                <element signature="e#4279#4296#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/race.cpp">
+        <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/cave_exploration.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+            <state relative-caret-position="500">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <element signature="e#40#59#0" expanded="true" />
               </folding>
@@ -54,10 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+        <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="167">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -76,7 +76,12 @@
       <find>memset</find>
       <find>cout</find>
       <find>jewer</find>
+      <find>]</find>
     </findStrings>
+    <replaceStrings>
+      <replace>{</replace>
+      <replace>}</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -84,9 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Level2/translate_bracket.cpp" />
-        <option value="$PROJECT_DIR$/Level2/open_chatting.cpp" />
-        <option value="$PROJECT_DIR$/Level2/english_ending.cpp" />
         <option value="$PROJECT_DIR$/Level2/news_clusterinig.cpp" />
         <option value="$PROJECT_DIR$/Level2/news_clustering.cpp" />
         <option value="$PROJECT_DIR$/Level2/skilltree.cpp" />
@@ -133,8 +135,11 @@
         <option value="$PROJECT_DIR$/Binary_Search/stepping_stone.cpp" />
         <option value="$PROJECT_DIR$/2020_카카오_인턴십/keypad.cpp" />
         <option value="$PROJECT_DIR$/2020_카카오_인턴십/jewerly_shopping.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/2020_카카오_인턴십/race.cpp" />
+        <option value="$PROJECT_DIR$/2020_카카오_인턴십/ cave_exploration.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/DP/Integer_Triangle.cpp" />
+        <option value="$PROJECT_DIR$/2020_카카오_인턴십/cave_exploration.cpp" />
       </list>
     </option>
   </component>
@@ -161,6 +166,11 @@
               <item name="Programmers" type="b2602c69:ProjectViewProjectNode" />
               <item name="Programmers" type="462c0819:PsiDirectoryNode" />
               <item name="2020_카카오_인턴십" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Programmers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Programmers" type="462c0819:PsiDirectoryNode" />
+              <item name="DP" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -327,12 +337,14 @@
       <workItem from="1596968749702" duration="4898000" />
       <workItem from="1597374506145" duration="729000" />
       <workItem from="1597442570926" duration="589000" />
-      <workItem from="1597905415885" duration="3596000" />
+      <workItem from="1597905415885" duration="3641000" />
+      <workItem from="1598341544696" duration="4489000" />
+      <workItem from="1598357000107" duration="4650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192047000" />
+    <option name="totallyTimeSpent" value="201231000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -347,13 +359,13 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18240343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24819277" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30843374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24819277" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36506024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
@@ -617,18 +629,64 @@
           <line>23</line>
           <option name="timeStamp" value="155" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/2020_카카오_인턴십/cave_exploration.cpp</url>
+          <line>33</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="time" />
         <watch expression="index" language="ObjectiveC" />
-        <watch expression="q.size()" language="ObjectiveC" />
+        <watch expression="bool" language="ObjectiveC" />
+        <watch expression="v[index][i]" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>v[index][i]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>v[0][index]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>visit[condition[v[0][index]]]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>condition[v[0][index]]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>codition[v[0][index]]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>bool</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>condition[i]</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>condition</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>q.size()</expression-string>
         <language-id>ObjectiveC</language-id>
@@ -639,80 +697,9 @@
         <language-id>ObjectiveC</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>temp[j].first</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>jewer[i].index[0]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>jewer</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>rocks[i+1]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>distance - rocks[i-1]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>distance - [rocks[i - 1]]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>rocks[i + 1] - rocks[i - 1]</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>rocks[1] - 0</expression-string>
-        <language-id>ObjectiveC</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Level2/n_least_common_multiple.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Level2/make_small.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Level2/jadenCase.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Level3/best_set.cpp" />
-    <entry file="file://$PROJECT_DIR$/Level3/candidate_key.cpp" />
     <entry file="file://$PROJECT_DIR$/Level3/number_game.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -977,6 +964,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sort/h_index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/ cave_exploration.cpp" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP/Integer_Triangle.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Binary_Search/stepping_stone.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -989,7 +998,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Binary_Search/immigration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
+        <state relative-caret-position="450">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
@@ -1007,26 +1016,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/keypad.cpp">
+    <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/수식_최대화.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/race.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="575">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sort/h_index.js">
+    <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/keypad.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-end-line="9" />
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/jewerly_shopping.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
+        <state relative-caret-position="525">
           <caret line="182" column="14" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
           <folding>
             <element signature="e#60#4277#0" />
@@ -1035,17 +1050,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/__bit_reference">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="167">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/race.cpp">
+    <entry file="file://$PROJECT_DIR$/2020_카카오_인턴십/cave_exploration.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        <state relative-caret-position="500">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
           <folding>
             <element signature="e#40#59#0" expanded="true" />
           </folding>

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/2020_카카오_인턴십/race.cpp.o"
+  "CMakeFiles/Programmers.dir/2020_카카오_인턴십/cave_exploration.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )
