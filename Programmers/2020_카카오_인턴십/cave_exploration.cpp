@@ -12,11 +12,11 @@ using namespace std;
 
 bool solution(int n, vector<vector<int>> path, vector<vector<int>> order) {
     bool answer = true;
+
     vector<bool> visit(n, false);
     vector<int> condition(n, -1);
     queue <int> q;
 
-    sort(path.begin(), path.end());
     vector<vector<int>> v(n);
     for (int i = 0; i < n - 1; ++i) {
         v[path[i][0]].push_back(path[i][1]);
@@ -33,37 +33,28 @@ bool solution(int n, vector<vector<int>> path, vector<vector<int>> order) {
 
     while(count != n){
 
-        if(check > n * n / q.size()){
-            return false;
+        if(check > q.size()){
+            answer = false;
+            break;
         }
 
         int index = q.front();
         q.pop();
 
-        if(condition[index] == -1){
-            for (int i = 0; i < v[index].size(); ++i) {
-                if(!visit[v[index][i]]){
-                    q.push(v[index][i]);
-                }
-            }
-        }
-        else if(!visit[condition[index]]){
+        if(condition[index] != -1 && !visit[condition[index]]){
             q.push(index);
             check += 1;
-            continue;
         }
         else{
+            check = 0;
             for (int i = 0; i < v[index].size(); ++i) {
                 if(!visit[v[index][i]]){
                     q.push(v[index][i]);
                 }
             }
+            visit[index] = true;
+            count++;
         }
-        visit[index] = true;
-
-
-        count++;
-
 
     }
 
@@ -72,8 +63,9 @@ bool solution(int n, vector<vector<int>> path, vector<vector<int>> order) {
 
 int main(){
 
-
     cout << solution(9, {{0,1},{0,3},{0,7},{8,1},{3,6},{1,2},{4,7},{7,5}}, {{8,5},{6,7},{4,1}}) << endl;
     cout << solution(9, {{8,1},{0,1},{1,2},{0,7},{4,7},{0,3},{7,5},{3,6}}, {{4,1},{5,2}}) << endl;
     cout << solution(9, {{0,1},{0,3},{0,7},{8,1},{3,6},{1,2},{4,7},{7,5}}, {{4,1},{8,7},{6,5}}) << endl;
+
+    return 0;
 }
