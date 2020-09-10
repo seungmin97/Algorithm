@@ -123,32 +123,32 @@ Beakjoon/fast:
 	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/build
 .PHONY : Beakjoon/fast
 
-Binary_Search/Find_Num.o: Binary_Search/Find_Num.cpp.o
+BFS/2178.미로탐색.o: BFS/2178.미로탐색.cpp.o
 
-.PHONY : Binary_Search/Find_Num.o
+.PHONY : BFS/2178.미로탐색.o
 
 # target to build an object file
-Binary_Search/Find_Num.cpp.o:
-	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/Binary_Search/Find_Num.cpp.o
-.PHONY : Binary_Search/Find_Num.cpp.o
+BFS/2178.미로탐색.cpp.o:
+	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/BFS/2178.미로탐색.cpp.o
+.PHONY : BFS/2178.미로탐색.cpp.o
 
-Binary_Search/Find_Num.i: Binary_Search/Find_Num.cpp.i
+BFS/2178.미로탐색.i: BFS/2178.미로탐색.cpp.i
 
-.PHONY : Binary_Search/Find_Num.i
+.PHONY : BFS/2178.미로탐색.i
 
 # target to preprocess a source file
-Binary_Search/Find_Num.cpp.i:
-	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/Binary_Search/Find_Num.cpp.i
-.PHONY : Binary_Search/Find_Num.cpp.i
+BFS/2178.미로탐색.cpp.i:
+	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/BFS/2178.미로탐색.cpp.i
+.PHONY : BFS/2178.미로탐색.cpp.i
 
-Binary_Search/Find_Num.s: Binary_Search/Find_Num.cpp.s
+BFS/2178.미로탐색.s: BFS/2178.미로탐색.cpp.s
 
-.PHONY : Binary_Search/Find_Num.s
+.PHONY : BFS/2178.미로탐색.s
 
 # target to generate assembly for a file
-Binary_Search/Find_Num.cpp.s:
-	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/Binary_Search/Find_Num.cpp.s
-.PHONY : Binary_Search/Find_Num.cpp.s
+BFS/2178.미로탐색.cpp.s:
+	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/BFS/2178.미로탐색.cpp.s
+.PHONY : BFS/2178.미로탐색.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Beakjoon"
-	@echo "... Binary_Search/Find_Num.o"
-	@echo "... Binary_Search/Find_Num.i"
-	@echo "... Binary_Search/Find_Num.s"
+	@echo "... BFS/2178.미로탐색.o"
+	@echo "... BFS/2178.미로탐색.i"
+	@echo "... BFS/2178.미로탐색.s"
 .PHONY : help
 
 
