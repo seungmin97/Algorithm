@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/2020_카카오_BLIND/문자열압축.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/SummerWinter2019/지형이동.cpp">
 			<Option target="Programmers"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/CMakeLists.txt">

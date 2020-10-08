@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-2020_카카오_BLIND/문자열압축.o: 2020_카카오_BLIND/문자열압축.cpp.o
+SummerWinter2019/지형이동.o: SummerWinter2019/지형이동.cpp.o
 
-.PHONY : 2020_카카오_BLIND/문자열압축.o
+.PHONY : SummerWinter2019/지형이동.o
 
 # target to build an object file
-2020_카카오_BLIND/문자열압축.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_BLIND/문자열압축.cpp.o
-.PHONY : 2020_카카오_BLIND/문자열압축.cpp.o
+SummerWinter2019/지형이동.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/SummerWinter2019/지형이동.cpp.o
+.PHONY : SummerWinter2019/지형이동.cpp.o
 
-2020_카카오_BLIND/문자열압축.i: 2020_카카오_BLIND/문자열압축.cpp.i
+SummerWinter2019/지형이동.i: SummerWinter2019/지형이동.cpp.i
 
-.PHONY : 2020_카카오_BLIND/문자열압축.i
+.PHONY : SummerWinter2019/지형이동.i
 
 # target to preprocess a source file
-2020_카카오_BLIND/문자열압축.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_BLIND/문자열압축.cpp.i
-.PHONY : 2020_카카오_BLIND/문자열압축.cpp.i
+SummerWinter2019/지형이동.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/SummerWinter2019/지형이동.cpp.i
+.PHONY : SummerWinter2019/지형이동.cpp.i
 
-2020_카카오_BLIND/문자열압축.s: 2020_카카오_BLIND/문자열압축.cpp.s
+SummerWinter2019/지형이동.s: SummerWinter2019/지형이동.cpp.s
 
-.PHONY : 2020_카카오_BLIND/문자열압축.s
+.PHONY : SummerWinter2019/지형이동.s
 
 # target to generate assembly for a file
-2020_카카오_BLIND/문자열압축.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/2020_카카오_BLIND/문자열압축.cpp.s
-.PHONY : 2020_카카오_BLIND/문자열압축.cpp.s
+SummerWinter2019/지형이동.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/SummerWinter2019/지형이동.cpp.s
+.PHONY : SummerWinter2019/지형이동.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... 2020_카카오_BLIND/문자열압축.o"
-	@echo "... 2020_카카오_BLIND/문자열압축.i"
-	@echo "... 2020_카카오_BLIND/문자열압축.s"
+	@echo "... SummerWinter2019/지형이동.o"
+	@echo "... SummerWinter2019/지형이동.i"
+	@echo "... SummerWinter2019/지형이동.s"
 .PHONY : help
 
 

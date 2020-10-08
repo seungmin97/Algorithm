@@ -3,4 +3,4 @@ project(SWExpert)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(SWExpert D3/1206.View.js)
+add_executable(SWExpert D3/10761.신뢰.cpp)

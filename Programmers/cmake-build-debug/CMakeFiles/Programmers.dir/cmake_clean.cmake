@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Programmers.dir/2020_카카오_BLIND/문자열압축.cpp.o"
+  "CMakeFiles/Programmers.dir/SummerWinter2019/지형이동.cpp.o"
   "Programmers.pdb"
   "Programmers"
 )
