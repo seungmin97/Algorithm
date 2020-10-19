@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-SummerWinter2019/지형이동.o: SummerWinter2019/지형이동.cpp.o
+Binary_Search/stepping_stone2.o: Binary_Search/stepping_stone2.cpp.o
 
-.PHONY : SummerWinter2019/지형이동.o
+.PHONY : Binary_Search/stepping_stone2.o
 
 # target to build an object file
-SummerWinter2019/지형이동.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/SummerWinter2019/지형이동.cpp.o
-.PHONY : SummerWinter2019/지형이동.cpp.o
+Binary_Search/stepping_stone2.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Binary_Search/stepping_stone2.cpp.o
+.PHONY : Binary_Search/stepping_stone2.cpp.o
 
-SummerWinter2019/지형이동.i: SummerWinter2019/지형이동.cpp.i
+Binary_Search/stepping_stone2.i: Binary_Search/stepping_stone2.cpp.i
 
-.PHONY : SummerWinter2019/지형이동.i
+.PHONY : Binary_Search/stepping_stone2.i
 
 # target to preprocess a source file
-SummerWinter2019/지형이동.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/SummerWinter2019/지형이동.cpp.i
-.PHONY : SummerWinter2019/지형이동.cpp.i
+Binary_Search/stepping_stone2.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Binary_Search/stepping_stone2.cpp.i
+.PHONY : Binary_Search/stepping_stone2.cpp.i
 
-SummerWinter2019/지형이동.s: SummerWinter2019/지형이동.cpp.s
+Binary_Search/stepping_stone2.s: Binary_Search/stepping_stone2.cpp.s
 
-.PHONY : SummerWinter2019/지형이동.s
+.PHONY : Binary_Search/stepping_stone2.s
 
 # target to generate assembly for a file
-SummerWinter2019/지형이동.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/SummerWinter2019/지형이동.cpp.s
-.PHONY : SummerWinter2019/지형이동.cpp.s
+Binary_Search/stepping_stone2.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Binary_Search/stepping_stone2.cpp.s
+.PHONY : Binary_Search/stepping_stone2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... SummerWinter2019/지형이동.o"
-	@echo "... SummerWinter2019/지형이동.i"
-	@echo "... SummerWinter2019/지형이동.s"
+	@echo "... Binary_Search/stepping_stone2.o"
+	@echo "... Binary_Search/stepping_stone2.i"
+	@echo "... Binary_Search/stepping_stone2.s"
 .PHONY : help
 
 

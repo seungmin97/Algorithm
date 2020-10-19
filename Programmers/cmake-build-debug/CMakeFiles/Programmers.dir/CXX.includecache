@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/SummerWinter2019/지형이동.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/Binary_Search/stepping_stone2.cpp
 iostream
 -
 string
 -
 vector
 -
-stdlib.h
+algorithm
 -
 

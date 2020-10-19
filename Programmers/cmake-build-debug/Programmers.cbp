@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/SummerWinter2019/지형이동.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/Binary_Search/stepping_stone2.cpp">
 			<Option target="Programmers"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Programmers/CMakeLists.txt">

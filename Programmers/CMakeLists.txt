@@ -3,4 +3,4 @@ project(Programmers)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Programmers SummerWinter2019/지형이동.cpp)
+add_executable(Programmers Binary_Search/stepping_stone2.cpp)
