@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Beakjoon.dir/BFS/2178.미로탐색.cpp.o"
+  "CMakeFiles/Beakjoon.dir/조합론/6603.로또.cpp.o"
   "Beakjoon.pdb"
   "Beakjoon"
 )

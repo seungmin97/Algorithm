@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Beakjoon/BFS/2178.미로탐색.cpp">
+		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Beakjoon/조합론/6603.로또.cpp">
 			<Option target="Beakjoon"/>
 		</Unit>
 		<Unit filename="/Users/leeseungmin/Desktop/Algorithm/Beakjoon/CMakeLists.txt">

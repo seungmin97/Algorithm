@@ -123,32 +123,32 @@ Beakjoon/fast:
 	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/build
 .PHONY : Beakjoon/fast
 
-BFS/2178.미로탐색.o: BFS/2178.미로탐색.cpp.o
+조합론/6603.로또.o: 조합론/6603.로또.cpp.o
 
-.PHONY : BFS/2178.미로탐색.o
+.PHONY : 조합론/6603.로또.o
 
 # target to build an object file
-BFS/2178.미로탐색.cpp.o:
-	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/BFS/2178.미로탐색.cpp.o
-.PHONY : BFS/2178.미로탐색.cpp.o
+조합론/6603.로또.cpp.o:
+	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/조합론/6603.로또.cpp.o
+.PHONY : 조합론/6603.로또.cpp.o
 
-BFS/2178.미로탐색.i: BFS/2178.미로탐색.cpp.i
+조합론/6603.로또.i: 조합론/6603.로또.cpp.i
 
-.PHONY : BFS/2178.미로탐색.i
+.PHONY : 조합론/6603.로또.i
 
 # target to preprocess a source file
-BFS/2178.미로탐색.cpp.i:
-	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/BFS/2178.미로탐색.cpp.i
-.PHONY : BFS/2178.미로탐색.cpp.i
+조합론/6603.로또.cpp.i:
+	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/조합론/6603.로또.cpp.i
+.PHONY : 조합론/6603.로또.cpp.i
 
-BFS/2178.미로탐색.s: BFS/2178.미로탐색.cpp.s
+조합론/6603.로또.s: 조합론/6603.로또.cpp.s
 
-.PHONY : BFS/2178.미로탐색.s
+.PHONY : 조합론/6603.로또.s
 
 # target to generate assembly for a file
-BFS/2178.미로탐색.cpp.s:
-	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/BFS/2178.미로탐색.cpp.s
-.PHONY : BFS/2178.미로탐색.cpp.s
+조합론/6603.로또.cpp.s:
+	$(MAKE) -f CMakeFiles/Beakjoon.dir/build.make CMakeFiles/Beakjoon.dir/조합론/6603.로또.cpp.s
+.PHONY : 조합론/6603.로또.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Beakjoon"
-	@echo "... BFS/2178.미로탐색.o"
-	@echo "... BFS/2178.미로탐색.i"
-	@echo "... BFS/2178.미로탐색.s"
+	@echo "... 조합론/6603.로또.o"
+	@echo "... 조합론/6603.로또.i"
+	@echo "... 조합론/6603.로또.s"
 .PHONY : help
 
 

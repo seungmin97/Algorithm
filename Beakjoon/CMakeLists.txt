@@ -3,4 +3,4 @@ project(Beakjoon)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Beakjoon BFS/2178.미로탐색.cpp)
+add_executable(Beakjoon 조합론/6603.로또.cpp)
