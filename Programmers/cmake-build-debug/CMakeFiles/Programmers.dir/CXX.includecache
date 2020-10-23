@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/leeseungmin/Desktop/Algorithm/Programmers/Binary_Search/stepping_stone2.cpp
+/Users/leeseungmin/Desktop/Algorithm/Programmers/BFS,DFS/target_number.cpp
 iostream
 -
 string
 -
 vector
--
-algorithm
 -
 

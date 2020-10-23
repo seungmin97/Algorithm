@@ -123,32 +123,32 @@ Programmers/fast:
 	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/build
 .PHONY : Programmers/fast
 
-Binary_Search/stepping_stone2.o: Binary_Search/stepping_stone2.cpp.o
+BFS,DFS/word_change.o: BFS,DFS/word_change.cpp.o
 
-.PHONY : Binary_Search/stepping_stone2.o
+.PHONY : BFS,DFS/word_change.o
 
 # target to build an object file
-Binary_Search/stepping_stone2.cpp.o:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Binary_Search/stepping_stone2.cpp.o
-.PHONY : Binary_Search/stepping_stone2.cpp.o
+BFS,DFS/word_change.cpp.o:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/BFS,DFS/word_change.cpp.o
+.PHONY : BFS,DFS/word_change.cpp.o
 
-Binary_Search/stepping_stone2.i: Binary_Search/stepping_stone2.cpp.i
+BFS,DFS/word_change.i: BFS,DFS/word_change.cpp.i
 
-.PHONY : Binary_Search/stepping_stone2.i
+.PHONY : BFS,DFS/word_change.i
 
 # target to preprocess a source file
-Binary_Search/stepping_stone2.cpp.i:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Binary_Search/stepping_stone2.cpp.i
-.PHONY : Binary_Search/stepping_stone2.cpp.i
+BFS,DFS/word_change.cpp.i:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/BFS,DFS/word_change.cpp.i
+.PHONY : BFS,DFS/word_change.cpp.i
 
-Binary_Search/stepping_stone2.s: Binary_Search/stepping_stone2.cpp.s
+BFS,DFS/word_change.s: BFS,DFS/word_change.cpp.s
 
-.PHONY : Binary_Search/stepping_stone2.s
+.PHONY : BFS,DFS/word_change.s
 
 # target to generate assembly for a file
-Binary_Search/stepping_stone2.cpp.s:
-	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/Binary_Search/stepping_stone2.cpp.s
-.PHONY : Binary_Search/stepping_stone2.cpp.s
+BFS,DFS/word_change.cpp.s:
+	$(MAKE) -f CMakeFiles/Programmers.dir/build.make CMakeFiles/Programmers.dir/BFS,DFS/word_change.cpp.s
+.PHONY : BFS,DFS/word_change.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Programmers"
-	@echo "... Binary_Search/stepping_stone2.o"
-	@echo "... Binary_Search/stepping_stone2.i"
-	@echo "... Binary_Search/stepping_stone2.s"
+	@echo "... BFS,DFS/word_change.o"
+	@echo "... BFS,DFS/word_change.i"
+	@echo "... BFS,DFS/word_change.s"
 .PHONY : help
 
 
